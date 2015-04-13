@@ -28,5 +28,6 @@
             </Menu>
         </DockPanel>
         <Button Content="Trabajadores" HorizontalAlignment="Left" Margin="109,218,0,0" VerticalAlignment="Top" Width="91" Click="Button_Click"/>
+        <Button Content="Reservas Spa" HorizontalAlignment="Left" Margin="242,218,0,0" VerticalAlignment="Top" Width="82" Click="Button_Click_1"/>
     </Grid>
 </Window>

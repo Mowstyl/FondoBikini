@@ -143,6 +143,14 @@ namespace FondoBikini {
             #line default
             #line hidden
             return;
+            case 8:
+            
+            #line 31 "..\..\MenuWindow.xaml"
+            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click_1);
+            
+            #line default
+            #line hidden
+            return;
             }
             this._contentLoaded = true;
         }
