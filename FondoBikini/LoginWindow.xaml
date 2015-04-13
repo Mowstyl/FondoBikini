@@ -1,0 +1,15 @@
+﻿<Window x:Class="FondoBikini.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Inicio de Sesión" Height="190" Width="275"
+        Name="login" ResizeMode="NoResize">
+    <Grid>
+        <Label Name="label1" Content="Usuario" HorizontalAlignment="Left" Margin="30,18,0,0" VerticalAlignment="Top"/>
+        <Label Name="label2" Content="Contraseña" HorizontalAlignment="Left" Margin="30,64,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="user" HorizontalAlignment="Right" Height="23" Margin="0,20,30,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <PasswordBox Name="password" HorizontalAlignment="Right" Margin="0,70,30,0" VerticalAlignment="Top" Width="120"/>
+        <Button Name="aceptar" Content="Aceptar" HorizontalAlignment="Left" Margin="45,0,0,20" VerticalAlignment="Bottom" Width="75" Click="aceptar_Click"/>
+        <Button Name="cancelar" Content="Cancelar" HorizontalAlignment="Right" Margin="0,0,45,20" VerticalAlignment="Bottom" Width="75" Click="cancelar_Click"/>
+
+    </Grid>
+</Window>
