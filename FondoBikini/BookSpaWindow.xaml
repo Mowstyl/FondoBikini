@@ -14,10 +14,10 @@
     </Window.Resources>
 
     <Grid>
-        <ComboBox Name="servicio" HorizontalAlignment="Left" Margin="80,21,0,0" VerticalAlignment="Top" Width="120" Style="{StaticResource bikiniFontStyle}"/>
-        <Label Content="Servicio" HorizontalAlignment="Left" Margin="23,21,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
-        <DatePicker Name="fecha" HorizontalAlignment="Left" Margin="276,21,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
-        <Label Content="Fecha" HorizontalAlignment="Left" Margin="230,21,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
+        <ComboBox Name="servicio" HorizontalAlignment="Left" Margin="139,21,0,0" VerticalAlignment="Top" Width="227" Style="{StaticResource bikiniFontStyle}"/>
+        <Label Content="Servicio" HorizontalAlignment="Left" Margin="82,21,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
+        <DatePicker Name="fecha" HorizontalAlignment="Left" Margin="276,110,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
+        <Label Content="Fecha" HorizontalAlignment="Left" Margin="208,108,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
         <GroupBox Name="horas" Header="Horarios" Height="240" HorizontalAlignment="Left" Margin="23,62,0,0" VerticalAlignment="Top" Width="170" Style="{StaticResource bikiniFontStyle}">
             <StackPanel Name="stackPanel1" Margin="0,0,0,0">
                 <RadioButton Content="8:00" Name="h8" Height="16" Margin="10,5,0,0" Width="60" HorizontalAlignment="Left"/>
@@ -43,13 +43,13 @@
 
             </StackPanel>
         </GroupBox>
-        <Label Content="Datos de Reserva" HorizontalAlignment="Left" Margin="208,76,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniTitleFontStyle}"/>
-        <Label Content="Nombre" HorizontalAlignment="Left" Margin="208,112,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
-        <Label Content="Apellidos" HorizontalAlignment="Left" Margin="208,141,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
-        <Label Content="DNI" HorizontalAlignment="Left" Margin="208,170,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
-        <TextBox Name="nombre" HorizontalAlignment="Left" Height="23" Margin="276,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" Style="{StaticResource bikiniFontStyle}"/>
-        <TextBox Name="apellidos" HorizontalAlignment="Left" Height="23" Margin="276,145,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" Style="{StaticResource bikiniFontStyle}"/>
-        <TextBox Name="dni" HorizontalAlignment="Left" Height="23" Margin="276,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" Style="{StaticResource bikiniFontStyle}"/>
+        <Label Content="Datos de Reserva" HorizontalAlignment="Left" Margin="208,67,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniTitleFontStyle}"/>
+        <Label Content="Nombre" HorizontalAlignment="Left" Margin="208,137,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
+        <Label Content="Apellidos" HorizontalAlignment="Left" Margin="208,166,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
+        <Label Content="DNI" HorizontalAlignment="Left" Margin="208,195,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
+        <TextBox Name="nombre" HorizontalAlignment="Left" Height="23" Margin="276,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" Style="{StaticResource bikiniFontStyle}"/>
+        <TextBox Name="apellidos" HorizontalAlignment="Left" Height="23" Margin="276,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" Style="{StaticResource bikiniFontStyle}"/>
+        <TextBox Name="dni" HorizontalAlignment="Left" Height="23" Margin="276,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" Style="{StaticResource bikiniFontStyle}"/>
         <Button Name="nueva_Reserva" Content="Nueva Reserva" HorizontalAlignment="Left" Margin="208,262,0,0" VerticalAlignment="Top" Width="99" Style="{StaticResource bikiniFontStyle}"/>
         <Button Name="anular_Reserva" Content="Anular Reserva" HorizontalAlignment="Left" Margin="323,262,0,0" VerticalAlignment="Top" Width="98" Style="{StaticResource bikiniFontStyle}"/>
 

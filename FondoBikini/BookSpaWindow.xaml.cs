@@ -33,7 +33,7 @@ namespace FondoBikini
             fecha.Text = DateTime.Today.ToString();
             foreach (string servicios in serviciosSpa)
             {
-                servicio.Items.Add(serviciosSpa);
+                servicio.Items.Add(servicios);
             }
             servicio.Text = servicio.Items[0] as string;
         }

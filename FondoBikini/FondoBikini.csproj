@@ -58,6 +58,9 @@
     <Compile Include="BookSpaWindow.xaml.cs">
       <DependentUpon>BookSpaWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="StockSpaWindow.xaml.cs">
+      <DependentUpon>StockSpaWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="WorkersWindow.xaml.cs">
       <DependentUpon>WorkersWindow.xaml</DependentUpon>
     </Compile>
@@ -92,6 +95,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="MenuWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="StockSpaWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
