@@ -35,5 +35,11 @@ namespace FondoBikini
             BookSpaWindow bookSpaWindow = new BookSpaWindow();
             bookSpaWindow.ShowDialog();
         }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            StockSpaWindow stockSpaWindow = new StockSpaWindow();
+            stockSpaWindow.ShowDialog();
+        }
     }
 }

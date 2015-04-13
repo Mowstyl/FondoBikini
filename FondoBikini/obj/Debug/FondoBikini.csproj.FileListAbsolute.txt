@@ -55,3 +55,5 @@ C:\Users\DNL\Desktop\Fondo Bikini\FondoBikini\FondoBikini\obj\Debug\FondoBikini.
 C:\Users\DNL\Desktop\Fondo Bikini\FondoBikini\FondoBikini\obj\Debug\FondoBikini.csproj.GenerateResource.Cache
 C:\Users\DNL\Desktop\Fondo Bikini\FondoBikini\FondoBikini\obj\Debug\BookSpaWindow.baml
 C:\Users\DNL\Desktop\Fondo Bikini\FondoBikini\FondoBikini\obj\Debug\BookSpaWindow.g.cs
+C:\Users\DNL\Desktop\Fondo Bikini\FondoBikini\FondoBikini\obj\Debug\StockSpaWindow.baml
+C:\Users\DNL\Desktop\Fondo Bikini\FondoBikini\FondoBikini\obj\Debug\StockSpaWindow.g.cs
