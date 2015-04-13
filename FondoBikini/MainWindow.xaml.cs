@@ -69,6 +69,6 @@ namespace FondoBikini
             }
         }
 
-        private userPassword[] userPasswords = { new userPassword("Gato", "Ninja") };
+        private userPassword[] userPasswords = { new userPassword("",""), new userPassword("Gato", "Ninja") };
     }
 }

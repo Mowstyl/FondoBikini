@@ -23,5 +23,11 @@ namespace FondoBikini
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            WorkersWindow workersWindow = new WorkersWindow();
+            workersWindow.ShowDialog();
+        }
     }
 }

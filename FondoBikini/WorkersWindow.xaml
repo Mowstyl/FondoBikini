@@ -30,14 +30,14 @@
         </DockPanel>
         <Label Name="label1" Content="Nombre" HorizontalAlignment="Left" Margin="28,60,0,0" VerticalAlignment="Top" Height="23"/>
         <TextBox Name="nombre" HorizontalAlignment="Left" Height="24" Margin="87,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="131"/>
-        <Label Name="label2" Content="Apellidos" Margin="246,60,0,0" VerticalAlignment="Top" Height="23" HorizontalAlignment="Left"/>
+        <Label Name="label2" Content="Apellidos" Margin="246,60,0,0" VerticalAlignment="Top" Height="26" HorizontalAlignment="Left"/>
         <TextBox Name="apellidos" Height="24" Margin="310,60,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" HorizontalAlignment="Left" Width="234"/>
         <Label Name="label3" Content="DNI" HorizontalAlignment="Left" Margin="51,108,0,0" VerticalAlignment="Top" Height="23"/>
         <TextBox Name="dni" HorizontalAlignment="Left" Height="24" Margin="87,108,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="131"/>
         <Label  Content="Dirección" HorizontalAlignment="Left" Margin="246,108,0,0" VerticalAlignment="Top" Height="23"/>
         <TextBox Name="direccion" HorizontalAlignment="Left" Height="46" Margin="311,108,0,0" TextWrapping="Wrap"  AcceptsReturn="True" VerticalAlignment="Top" Width="233"/>
-        <DatePicker Name="fechaInicio" HorizontalAlignment="Left" Margin="175,172,0,0" VerticalAlignment="Top"/>
-        <DatePicker Name="fechaFin" HorizontalAlignment="Left" Margin="175,212,0,0" VerticalAlignment="Top"/>
+        <DatePicker Name="fechaInicio" HorizontalAlignment="Left" Margin="175,172,0,0" VerticalAlignment="Top" Width="102"/>
+        <DatePicker Name="fechaFin" HorizontalAlignment="Left" Margin="175,212,0,0" VerticalAlignment="Top" Width="102"/>
         <Label Content="Fecha de contratación" HorizontalAlignment="Left" Margin="36,172,0,0" VerticalAlignment="Top" Height="24"/>
         <Label Content="Fecha de fin de contrato" HorizontalAlignment="Left" Margin="36,212,0,0" VerticalAlignment="Top" Height="24"/>
         <Label Content="Puesto de trabajo" HorizontalAlignment="Left" Margin="316,172,0,0" VerticalAlignment="Top"/>

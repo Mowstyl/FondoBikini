@@ -32,3 +32,24 @@ C:\Users\Mowser\Desktop\CProjects\C#\FondoBikini\FondoBikini\obj\Debug\FondoBiki
 C:\Users\Mowser\Desktop\CProjects\C#\FondoBikini\FondoBikini\obj\Debug\FondoBikini.csproj.GenerateResource.Cache
 C:\Users\Mowser\Desktop\CProjects\C#\FondoBikini\FondoBikini\bin\Debug\FondoBikini.exe
 C:\Users\Mowser\Desktop\CProjects\C#\FondoBikini\FondoBikini\bin\Debug\FondoBikini.pdb
+C:\Users\DNL\Desktop\Fondo Bikini\FondoBikini\FondoBikini\bin\Debug\FondoBikini.exe.config
+C:\Users\DNL\Desktop\Fondo Bikini\FondoBikini\FondoBikini\obj\Debug\FondoBikini.exe
+C:\Users\DNL\Desktop\Fondo Bikini\FondoBikini\FondoBikini\obj\Debug\FondoBikini.pdb
+C:\Users\DNL\Desktop\Fondo Bikini\FondoBikini\FondoBikini\bin\Debug\FondoBikini.exe
+C:\Users\DNL\Desktop\Fondo Bikini\FondoBikini\FondoBikini\bin\Debug\FondoBikini.pdb
+C:\Users\DNL\Desktop\Fondo Bikini\FondoBikini\FondoBikini\obj\Debug\FondoBikini.csprojResolveAssemblyReference.cache
+C:\Users\DNL\Desktop\Fondo Bikini\FondoBikini\FondoBikini\obj\Debug\About.baml
+C:\Users\DNL\Desktop\Fondo Bikini\FondoBikini\FondoBikini\obj\Debug\LoginWindow.baml
+C:\Users\DNL\Desktop\Fondo Bikini\FondoBikini\FondoBikini\obj\Debug\MainWindow.baml
+C:\Users\DNL\Desktop\Fondo Bikini\FondoBikini\FondoBikini\obj\Debug\MenuWindow.baml
+C:\Users\DNL\Desktop\Fondo Bikini\FondoBikini\FondoBikini\obj\Debug\WorkersWindow.baml
+C:\Users\DNL\Desktop\Fondo Bikini\FondoBikini\FondoBikini\obj\Debug\About.g.cs
+C:\Users\DNL\Desktop\Fondo Bikini\FondoBikini\FondoBikini\obj\Debug\LoginWindow.g.cs
+C:\Users\DNL\Desktop\Fondo Bikini\FondoBikini\FondoBikini\obj\Debug\MainWindow.g.cs
+C:\Users\DNL\Desktop\Fondo Bikini\FondoBikini\FondoBikini\obj\Debug\MenuWindow.g.cs
+C:\Users\DNL\Desktop\Fondo Bikini\FondoBikini\FondoBikini\obj\Debug\WorkersWindow.g.cs
+C:\Users\DNL\Desktop\Fondo Bikini\FondoBikini\FondoBikini\obj\Debug\App.g.cs
+C:\Users\DNL\Desktop\Fondo Bikini\FondoBikini\FondoBikini\obj\Debug\FondoBikini_MarkupCompile.cache
+C:\Users\DNL\Desktop\Fondo Bikini\FondoBikini\FondoBikini\obj\Debug\FondoBikini.g.resources
+C:\Users\DNL\Desktop\Fondo Bikini\FondoBikini\FondoBikini\obj\Debug\FondoBikini.Properties.Resources.resources
+C:\Users\DNL\Desktop\Fondo Bikini\FondoBikini\FondoBikini\obj\Debug\FondoBikini.csproj.GenerateResource.Cache
