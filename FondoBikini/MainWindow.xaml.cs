@@ -32,10 +32,8 @@ namespace FondoBikini
             loginWindow.ShowDialog();
             bool usrpwd = false;
             foreach (userPassword userpass in userPasswords)
-            {
                 if (userpass.checkUser(loginWindow.user.Text) && userpass.checkPass(loginWindow.password.Password))
                     usrpwd = true;
-            }
             if (usrpwd)
             {
                 loginWindow.Close();
