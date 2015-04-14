@@ -31,13 +31,25 @@ namespace FondoBikini
             apellidos.Text = String.Empty;
             dni.Text = String.Empty;
             fecha.Text = DateTime.Today.ToString();
-            foreach (string servicios in serviciosSpa)
+            for (int i = 8; i <= 20; i++)
             {
-                servicio.Items.Add(servicios);
+                hora.Items.Add(i.ToString()+":00");
+                hora.Items.Add(i.ToString()+":30");
+                if (i == 14)
+                {
+                    i += 1;
+                }
             }
+            hora.Text = hora.Items[0] as string;
+            
+            foreach (string servicios in serviciosSpa)
+                {
+                    servicio.Items.Add(servicios);
+                }
             servicio.Text = servicio.Items[0] as string;
         }
         private string[] serviciosSpa ={ "Piscina de chorros de agua","Circuito de aguas","Masaje relajante",
             "Masaje Terapeutico", "Masaje Terapeutico (Masajista 2)"};
+
     }
 }
