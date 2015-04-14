@@ -32,6 +32,7 @@ namespace FondoBikini
             dni.Text = String.Empty;
             salario.Text = String.Empty;
             telefono.Text = String.Empty;
+            notas.Text = String.Empty;
             fechaInicio.Text = DateTime.Today.ToString();
             fechaFin.Text = DateTime.Today.ToString();
             foreach (string puestoTrabajo in puestosTrabajo)
