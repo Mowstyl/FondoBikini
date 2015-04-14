@@ -30,8 +30,11 @@ namespace FondoBikini
         {
             LoginWindow loginWindow = new LoginWindow();
             loginWindow.ShowDialog();
-            foreach (userPassword userpass in userPasswords )
-            if (userpass.checkUser(loginWindow.user.Text)&&userpass.checkPass(loginWindow.password.Password))
+            bool usrpwd = false;
+            foreach (userPassword userpass in userPasswords)
+                if (userpass.checkUser(loginWindow.user.Text) && userpass.checkPass(loginWindow.password.Password))
+                    usrpwd = true;
+            if (usrpwd)
             {
                 loginWindow.Close();
                 MenuWindow menu = new MenuWindow();
