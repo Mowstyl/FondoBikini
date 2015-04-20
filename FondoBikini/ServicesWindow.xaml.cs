@@ -43,7 +43,12 @@ namespace FondoBikini
 
         private void cbBuceo_Checked(object sender, RoutedEventArgs e)
         {
-            comboBuceo.IsEnabled = (bool)cbBuceo.IsChecked;
+            comboBuceo.IsEnabled = true;
+        }
+
+        private void cbBuceo_Unchecked(object sender, RoutedEventArgs e)
+        {
+            comboBuceo.IsEnabled = false;
         }
     }
 }
