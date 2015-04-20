@@ -47,5 +47,11 @@ namespace FondoBikini
             ClientWindow clientWindow = new ClientWindow();
             clientWindow.ShowDialog();
         }
+
+        private void bServices_Click(object sender, RoutedEventArgs e)
+        {
+            ServicesWindow servicesWindow = new ServicesWindow();
+            servicesWindow.ShowDialog();
+        }
     }
 }
