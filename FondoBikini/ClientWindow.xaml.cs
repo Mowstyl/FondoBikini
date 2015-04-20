@@ -22,12 +22,13 @@ namespace FondoBikini
         public ClientWindow()
         {
             InitializeComponent();
+            this.reset();
         }
 
         public void reset()
         {
-            radioDesayuno.IsEnabled = true;
-            cbIncluido.IsEnabled = false;
+            radioDesayuno.IsChecked = true;
+            cbIncluido.IsChecked = false;
 
             foreach (string hora in horaComida)
                 comboHoraCena.Items.Add(hora);
