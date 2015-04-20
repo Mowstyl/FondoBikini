@@ -22,6 +22,28 @@ namespace FondoBikini
         public ServicesWindow()
         {
             InitializeComponent();
+            this.reset();
+        }
+
+        public void reset ()
+        {
+            cbBicicletas.IsChecked = false;
+            cbBuceo.IsChecked = false;
+            cbCoche.IsChecked = false;
+            cbPaddel.IsChecked = false;
+            cbTenis.IsChecked = false;
+
+            foreach (string precio in buceo)
+                comboBuceo.Items.Add(precio);
+            comboBuceo.Text = comboBuceo.Items[0] as string;
+            comboBuceo.IsEnabled = false;
+        }
+
+        public string[] buceo = { "120€ 3 días de iniciación", "250€ 3 días en alta mar" };
+
+        private void cbBuceo_Checked(object sender, RoutedEventArgs e)
+        {
+            comboBuceo.IsEnabled = (bool)cbBuceo.IsChecked;
         }
     }
 }
