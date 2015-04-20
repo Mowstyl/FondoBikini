@@ -4,12 +4,12 @@
         Title="MainWindow" Height="300" Width="500">
     <Grid>
         <StackPanel Margin="0,0,0,0" Name="stackPanel1">
-            <RadioButton Name="textDesayuno" Content="Desayuno" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="77,69,0,0"/>
-            <RadioButton Name="textDesayunoyCena" Content="Desayuno y Cena" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="77,10,0,0"/>
+            <RadioButton Name="radioDesayuno" Content="Desayuno" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="77,69,0,0"/>
+            <RadioButton Name="radioDesayunoyCena" Content="Desayuno y Cena" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="77,10,0,0"/>
         </StackPanel>
         <CheckBox Name="cbIncluido" Content="Todo Incluído" Margin="90,173,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
         <Label Content="Régimen de comidas:" HorizontalAlignment="Left" VerticalAlignment="Top" Width="138" Margin="10,38,0,0"/>
-        <ComboBox Name="horaCena" HorizontalAlignment="Left" Margin="296,64,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox Name="comboHoraCena" HorizontalAlignment="Left" Margin="296,64,0,0" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Window>
