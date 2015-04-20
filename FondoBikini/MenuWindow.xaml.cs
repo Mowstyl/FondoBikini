@@ -24,22 +24,28 @@ namespace FondoBikini
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void bTrabajadores_Click(object sender, RoutedEventArgs e)
         {
             WorkersWindow workersWindow = new WorkersWindow();
             workersWindow.ShowDialog();
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void bReservasSpa_Click(object sender, RoutedEventArgs e)
         {
             BookSpaWindow bookSpaWindow = new BookSpaWindow();
             bookSpaWindow.ShowDialog();
         }
 
-        private void Button_Click_2(object sender, RoutedEventArgs e)
+        private void bStockSpa_Click(object sender, RoutedEventArgs e)
         {
             StockSpaWindow stockSpaWindow = new StockSpaWindow();
             stockSpaWindow.ShowDialog();
+        }
+
+        private void bClient_Click(object sender, RoutedEventArgs e)
+        {
+            ClientWindow clientWindow = new ClientWindow();
+            clientWindow.ShowDialog();
         }
     }
 }
