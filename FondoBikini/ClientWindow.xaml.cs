@@ -23,5 +23,18 @@ namespace FondoBikini
         {
             InitializeComponent();
         }
+
+        public void reset()
+        {
+            radioDesayuno.IsEnabled = true;
+            cbIncluido.IsEnabled = false;
+
+            foreach (string hora in horaComida)
+                comboHoraCena.Items.Add(hora);
+            comboHoraCena.Text = comboHoraCena.Items[0] as string;
+        }
+
+        public string[] horaComida = { "5:30 pm", "9:00 pm" };
+
     }
 }
