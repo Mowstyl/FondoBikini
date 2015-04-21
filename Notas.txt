@@ -1,37 +1,37 @@
-Inicio
+Inicio		->		Hernán
 Añadir ventana para seleccionar donde guardar o cargar la base de datos.
 
 Login
 OK.
 
-Menu
+Menu		->		Hernán
 Añadir todo lo que falta y agrupar botones por categorías.
 
-Reservas
+Reservas	->		Leo
 Crear ventana y preparar cancelación y modificación.
 
-Cliente
+Cliente		->		Gema
 Crear ventana y poner un link a la ventana de comidas.
 Conviene añadir boton para modificar cosas como los días de estancia.
 También se debe tener una ventana en la que aparezcan todos los cargos a la cuenta de ese cliente.
 
-Servicios
+Servicios	->		Gema
 Reorganizar y poner precio/hora.
 Se debe poder poner el nº de habitación al que se carga el precio.
 Se debe poder cancelar un servicio.
 
-BookSpa
+BookSpa		->		Daniel
 Añadir Metodo de pago contado/Cargar a tarjeta
 Si el cliente es interino del hotel, mostrar numero de habitacion.
 
-StockSpa
+StockSpa	->		Daniel
 La actualizacion del stock se vincula al proveedor para pedir
 		se relaciona con ventas en la tienda o gasto de material
 
-Tienda
+Tienda		->		Leo
 Todo.
 
-Trabajadores
+Trabajadores->		Hernán
 Los trabajadores no se bottan, se dan de baja temporalmente (interesa guardar tambien una espacio para la valoracion)
 
 Añadir botón para dar de alta!!!
