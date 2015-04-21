@@ -73,5 +73,20 @@ namespace FondoBikini
         }
 
         private userPassword[] userPasswords = { new userPassword("",""), new userPassword("Gato", "Ninja") };
+
+        private void logOut_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void newDataBase_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void changeDataBase_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

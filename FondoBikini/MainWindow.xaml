@@ -21,7 +21,10 @@
             <Menu Style="{StaticResource bikiniFontStyle}" Height="23" Name="menu1" VerticalAlignment="Top" Width="Auto" DockPanel.Dock="Top" HorizontalAlignment="Stretch">
                 <MenuItem Header="_Programa" >
                     <MenuItem Header="_Iniciar Sesión" Name="logIn" Click="iniciarSesion_Click"/>
-                    <MenuItem Header="_Cerrar Sesión" Name="logOut" />
+                    <MenuItem Header="_Cerrar Sesión" Name="logOut" Click="logOut_Click"/>
+                    <Separator/>
+                    <MenuItem Header="Nueva base de datos" Name="newDataBase" Click="newDataBase_Click"/>
+                    <MenuItem Header="Cambiar base de datos" Name="changeDataBase" Click="changeDataBase_Click"/>
                     <Separator/>
                     <MenuItem Header="_Salir" Name="exit"/>
                 </MenuItem>
