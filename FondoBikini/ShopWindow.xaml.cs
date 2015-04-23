@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.IO;
 
 namespace FondoBikini
 {
@@ -23,6 +24,36 @@ namespace FondoBikini
         public ShopWindow()
         {
             InitializeComponent();
+        }
+
+        public void Reset()
+        {
+            textComprador.Text = String.Empty;
+            textHabitación.Text = String.Empty;
+      
+        }
+
+        private void Guardar_Click(object sender, RoutedEventArgs e)
+        {
+            using(StreamWriter writer=new StreamWriter("Información compra.txt"))
+            {
+                writer.WriteLine("Comprador: {0}   Habitación: {1}", textComprador.Text, textHabitación.Text);
+                writer.WriteLine("Número de productos comprados:");
+                writer.WriteLine("Agua: {0}", textAgua.Text);
+                writer.WriteLine("Bañadores: {0}", textBañadores.Text);
+                writer.WriteLine("Sombreros: {0}", textSombreros.Text);
+                writer.WriteLine("Gafas: {0}", textGafas.Text);
+                writer.WriteLine("Flotadores: {0}", textFlotadores.Text);
+                writer.WriteLine("Sombrillas: {0}", textSombrillas.Text);
+                writer.WriteLine("Souvenirs: {0}", textSouvenirs.Text);
+            }
+
+            MessageBox.Show("Información guardada. Compra realizada");
+        }
+
+        private void Cancelar_Click(object sender, RoutedEventArgs e)
+        {
+            this.Reset();
         }
     }
 }

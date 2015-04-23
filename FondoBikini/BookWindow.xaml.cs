@@ -39,6 +39,8 @@ namespace FondoBikini
                 tipoHabitacion.Items.Add(tipo);
             }
             tipoHabitacion.Text = tipoHabitacion.Items[0] as string;
+            textNochesEstancia.Text = String.Empty;
+            textNumeroTarjeta.Text = String.Empty;
         }
 
         private string[] habitaciones = { "Normal", "Vistas al mar", "Superior vistas al mar", "Suite" };
@@ -61,26 +63,28 @@ namespace FondoBikini
                 writer.WriteLine("Tipo habitación: {0}", tipoHabitacion.Text);
                 writer.WriteLine("Estancia: {0}", textNochesEstancia.Text);
                 writer.WriteLine("Número tarjeta crédito: {0}", textNumeroTarjeta.Text);
-
-                MessageBox.Show("Reserva creada");
             }
+
+            using (StreamWriter writerdatos = new StreamWriter("Información Reserva Datos.txt"))
+            {
+                writerdatos.WriteLine("{0}", textNombre.Text);
+                writerdatos.WriteLine("{0}", textApellidos.Text);
+                writerdatos.WriteLine("{0}", textDni.Text);
+                writerdatos.WriteLine("{0}", textPoblación.Text);
+                writerdatos.WriteLine("{0}", textProvincia.Text);
+                writerdatos.WriteLine("{0}", tipoHabitacion.Text);
+                writerdatos.WriteLine("{0}", textNochesEstancia.Text);
+                writerdatos.WriteLine("{0}", textNumeroTarjeta.Text);
+            }
+
+            MessageBox.Show("Reserva creada");
         }
 
         private void textAnular_Click(object sender, RoutedEventArgs e)
         {
-            using(StreamReader reader=new StreamReader("Información Reserva.txt"))
-            {
-                reader.ReadToEnd();
-            }
-
-            MessageBox.Show("Reserva anulada");
-
             this.Reset();
-        }
 
-        private void textModificar_Click(object sender, RoutedEventArgs e)
-        {
-            using(StreamWriter writer=new StreamWriter("Información Reserva.txt"))
+            using (StreamWriter writer= new StreamWriter("Información Reserva.txt"))
             {
                 writer.WriteLine("Cliente: {0} {1}", textNombre.Text, textApellidos.Text);
                 writer.WriteLine("DNI: {0}", textDni.Text);
@@ -88,6 +92,48 @@ namespace FondoBikini
                 writer.WriteLine("Tipo habitación: {0}", tipoHabitacion.Text);
                 writer.WriteLine("Estancia: {0}", textNochesEstancia.Text);
                 writer.WriteLine("Número tarjeta crédito: {0}", textNumeroTarjeta.Text);
+            }
+
+            using (StreamWriter writerdatos = new StreamWriter("Información Reserva Datos.txt"))
+            {
+                writerdatos.WriteLine("{0}", textNombre.Text);
+                writerdatos.WriteLine("{0}", textApellidos.Text);
+                writerdatos.WriteLine("{0}", textDni.Text);
+                writerdatos.WriteLine("{0}", textPoblación.Text);
+                writerdatos.WriteLine("{0}", textProvincia.Text);
+                writerdatos.WriteLine("{0}", tipoHabitacion.Text);
+                writerdatos.WriteLine("{0}", textNochesEstancia.Text);
+                writerdatos.WriteLine("{0}", textNumeroTarjeta.Text);
+            }
+
+            MessageBox.Show("Reserva anulada");
+
+            
+        }
+
+        private void textModificar_Click(object sender, RoutedEventArgs e)
+        {
+            using(StreamReader reader=new StreamReader("Información Reserva Datos.txt"))
+            {
+                textNombre.Text = reader.ReadLine();
+                textApellidos.Text = reader.ReadLine();
+                textDni.Text = reader.ReadLine();
+                textPoblación.Text = reader.ReadLine();
+                textProvincia.Text = reader.ReadLine();
+                tipoHabitacion.Text = reader.ReadLine();              
+                textNochesEstancia.Text = reader.ReadLine();
+                textNumeroTarjeta.Text = reader.ReadLine();
+            }
+            
+            using (StreamWriter writer = new StreamWriter("Información Reserva.txt"))
+            {
+                writer.WriteLine("Cliente: {0} {1}", textNombre.Text, textApellidos.Text);
+                writer.WriteLine("DNI: {0}", textDni.Text);
+                writer.WriteLine("Procedencia: {0}, {1}", textPoblación.Text, textProvincia.Text);
+                writer.WriteLine("Tipo habitación: {0}", tipoHabitacion.Text);
+                writer.WriteLine("Estancia: {0}", textNochesEstancia.Text);
+                writer.WriteLine("Número tarjeta crédito: {0}", textNumeroTarjeta.Text);
+            }
 
                 MessageBox.Show("Reserva modificada");
         }
