@@ -1,5 +1,6 @@
 Inicio		->		Hernán
 Añadir ventana para seleccionar donde guardar o cargar la base de datos.
+OK.
 
 Login
 OK.
@@ -8,7 +9,7 @@ Menu		->		Hernán
 Añadir todo lo que falta y agrupar botones por categorías.
 
 Reservas	->		Leo
-Crear ventana y preparar cancelación y modificación.
+Preparar cancelación y modificación.
 
 Cliente		->		Gema
 Crear ventana y poner un link a la ventana de comidas.
