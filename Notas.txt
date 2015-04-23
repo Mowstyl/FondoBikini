@@ -29,8 +29,8 @@ StockSpa	->		Daniel
 La actualizacion del stock se vincula al proveedor para pedir
 		se relaciona con ventas en la tienda o gasto de material
 
-Tienda		->		Leo
-Todo.
+Tienda		
+OK.
 
 Trabajadores->		Hernán
 Los trabajadores no se bottan, se dan de baja temporalmente (interesa guardar tambien una espacio para la valoracion)
