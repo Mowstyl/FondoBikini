@@ -43,7 +43,7 @@ namespace FondoBikini
 
         private string[] habitaciones = { "Normal", "Vistas al mar", "Superior vistas al mar", "Suite" };
 
-        private void textGuardar_Click(object sender, RoutedEventArgs e)
+        private void textCrear_Click(object sender, RoutedEventArgs e)
         {
             /*String datos = String.Format("Cliente {0} {1} con DNI {2} y procedencia {3}, {4}, solicita {5} durante {6}. Con numero tarjeta {7}",
                 textNombre.Text, textApellidos.Text, textDni.Text, textPoblación.Text, textProvincia.Text, tipoHabitacion.Text, textNochesEstancia.Text, textNumeroTarjeta.Text);
@@ -62,7 +62,7 @@ namespace FondoBikini
                 writer.WriteLine("Estancia: {0}", textNochesEstancia.Text);
                 writer.WriteLine("Número tarjeta crédito: {0}", textNumeroTarjeta.Text);
 
-                MessageBox.Show("Información de la reserva guardada");
+                MessageBox.Show("Reserva creada");
             }
         }
 

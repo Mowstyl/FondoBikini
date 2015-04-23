@@ -19,8 +19,9 @@
         <TextBox Name="textNochesEstancia" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="136,225,0,0"/>
         <Label Content="Número de tarjeta de crédito" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,288,0,0"/>
         <TextBox Name="textNumeroTarjeta" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="169,291,0,0"/>
-        <Button Name="textAnular" Content="Anular reserva" HorizontalAlignment="Left" VerticalAlignment="Top" Width="111" Margin="309,429,0,0" Height="33" Click="textAnular_Click"/>
-        <Button Name="textGuardar" Content="Guardar Datos" HorizontalAlignment="Left" VerticalAlignment="Top" Width="98" Margin="124,430,0,0" Height="30" Click="textGuardar_Click"/>
+        <Button Name="textAnular" Content="Anular reserva" HorizontalAlignment="Right" VerticalAlignment="Top" Width="100" Margin="370,430,45,0" Height="33" Click="textAnular_Click"/>
+        <Button Name="textCrear" Content="Crear reserva" HorizontalAlignment="Left" VerticalAlignment="Top" Width="101" Margin="45,429,0,0" Height="34" Click="textCrear_Click"/>
+        <Button Name="textModificar" Content="Modificar reserva" HorizontalAlignment="Center" Margin="0,429,0,0" VerticalAlignment="Top" Width="108" Height="34"/>
 
     </Grid>
 </Window>
