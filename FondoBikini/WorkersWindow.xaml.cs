@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Microsoft.Win32;
 
 namespace FondoBikini
 {
@@ -45,5 +46,11 @@ namespace FondoBikini
         private string[] puestosTrabajo ={ "Administrativo/a","Auxiliar de recepción","Ayudante de cocina","Camarero/a",   "Cocinero/a",  "Director/a gerente del hotel", 
            "Fisioterapeuta", "Gobernante/a","Limpiador/a","Mantenimiento",  "Médico", "Recepcionista" , 
          "Socorrista"};
+
+        private void loadWorker_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog load = new OpenFileDialog();
+            load.ShowDialog();
+        }
     }
 }
