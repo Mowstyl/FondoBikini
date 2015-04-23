@@ -1,51 +1,53 @@
 ﻿<Window x:Class="FondoBikini.ServicesWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="ServicesWindow" Height="400" Width="350">
+        Title="ServicesWindow" Height="400" Width="500">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
-        <CheckBox Name="cbBuceo" Content="Cursos de buceo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,35,0,0" Checked="cbBuceo_Checked" Unchecked="cbBuceo_Unchecked"/>
-        <Label Name="cbBicicletas" Content="Alquiler de bicicletas" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,70,0,0"/>
-        <StackPanel Orientation="Horizontal" Margin="200,70,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
-            <TextBox Margin="0,0,0,0" Height="24" Width="50" Text="0"/>
-            <StackPanel>
-                <Button Margin="0,0,0,0" Height="12" Width="12"/>
-                <Button Margin="0,0,0,0" Height="12" Width="12"/>
-            </StackPanel>
-        </StackPanel>
+        <CheckBox Name="cbBuceo" Content="Cursos de buceo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,70,0,0" Checked="cbBuceo_Checked" Unchecked="cbBuceo_Unchecked"/>
+        <ComboBox Name="comboBuceo" HorizontalAlignment="Right" VerticalAlignment="Top" Width="164" Margin="0,70,20,0"/>
         <Label Content="Alquiler pistas de tenis" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,105,0,0"/>
-        <StackPanel Orientation="Horizontal" Margin="200,105,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+        <StackPanel Orientation="Horizontal" Margin="0,105,20,0" HorizontalAlignment="Right" VerticalAlignment="Top">
             <TextBox Margin="0,0,0,0" Height="24" Width="50" Text="0"/>
             <StackPanel>
                 <Button Margin="0,0,0,0" Height="12" Width="12"/>
                 <Button Margin="0,0,0,0" Height="12" Width="12"/>
             </StackPanel>
+            <Label Content="Horas" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,0,0,0"/>
         </StackPanel>
         <Label Content="Alquiler pistas de paddel" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,140,0,0"/>
-        <StackPanel Orientation="Horizontal" Margin="200,140,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+        <StackPanel Orientation="Horizontal" Margin="0,140,20,0" HorizontalAlignment="Right" VerticalAlignment="Top">
             <TextBox Margin="0,0,0,0" Height="24" Width="50" Text="0"/>
             <StackPanel>
                 <Button Margin="0,0,0,0" Height="12" Width="12"/>
                 <Button Margin="0,0,0,0" Height="12" Width="12"/>
             </StackPanel>
+            <Label Content="Horas" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,0,0,0"/>
         </StackPanel>
-        <Label Content="Alquiler de coche" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,175,0,0"/>
-        <StackPanel Orientation="Horizontal" Margin="200,175,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+        <Label Content="Alquiler de coches" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,175,0,0"/>
+        <StackPanel Orientation="Horizontal" Margin="0,175,20,0" HorizontalAlignment="Right" VerticalAlignment="Top">
             <TextBox Margin="0,0,0,0" Height="24" Width="50" Text="0"/>
             <StackPanel>
                 <Button Margin="0,0,0,0" Height="12" Width="12"/>
                 <Button Margin="0,0,0,0" Height="12" Width="12"/>
             </StackPanel>
+            <Label Content="Horas" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,0,0,0"/>
         </StackPanel>
-        <ComboBox Name="comboBuceo" HorizontalAlignment="Right" VerticalAlignment="Top" Width="164" Margin="0,35,20,0"/>
-        <Label Content="Horas" HorizontalAlignment="Right" Margin="0,70,20,0" VerticalAlignment="Top"/>
-        <Label  Content="Horas" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,105,20,0"/>
-        <Label Content="Horas" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,140,20,0"/>
-        <Label Content="Horas" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,175,20,0"/>
-        <Button Content="Aceptar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="116,320,0,0"/>
+        <Label Content="Alquiler de bicicletas" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,210,0,0"/>
+        <StackPanel Orientation="Horizontal" Margin="0,210,20,0" HorizontalAlignment="Right" VerticalAlignment="Top">
+            <TextBox Margin="0,0,0,0" Height="24" Width="50" Text="0"/>
+            <StackPanel>
+                <Button Margin="0,0,0,0" Height="12" Width="12"/>
+                <Button Margin="0,0,0,0" Height="12" Width="12"/>
+            </StackPanel>
+            <Label Content="Horas" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,0,0,0"/>
+        </StackPanel>
+        <Button Content="Cancelar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="35,320,0,0"/>
+        <Button Content="Modificar" HorizontalAlignment="Center" VerticalAlignment="Top" Width="75" Margin="0,320,0,0"/>
+        <Button Content="Aceptar" HorizontalAlignment="Right" VerticalAlignment="Top" Width="75" Margin="0,320,35,0"/>
 
 
     </Grid>
