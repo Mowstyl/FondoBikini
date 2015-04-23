@@ -7,32 +7,46 @@
             <ColumnDefinition/>
             <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
-        <CheckBox Name="cbBicicletas" Content="Alquiler de bicicletas" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="10.226,6.427" Margin="20,76,0,0" Height="15" Width="207"/>
-        <CheckBox Name="cbBuceo" Content="Cursos de buceo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,37,0,0" Checked="cbBuceo_Checked" Unchecked="cbBuceo_Unchecked"/>
-        <CheckBox Name="cbTenis" Content="Alquiler pistas de tenis" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,147,0,0"/>
-        <CheckBox Name="cbPaddel" Content="Alquiler pistas de paddel" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,208,0,0"/>
-        <CheckBox Name="cbCoche" Content="Alquiler de coche" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,251,0,0"/>
-        <ComboBox Name="comboBuceo" HorizontalAlignment="Left" VerticalAlignment="Top" Width="164" Margin="159,30,0,0"/>
-        <ScrollBar HorizontalAlignment="Left" Margin="186,68,0,0" VerticalAlignment="Top"/>
-        <TextBox Name="textHorasBici" HorizontalAlignment="Left" Height="32" Margin="203,68,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="57"/>
-        <Label Content="Horas&#xD;&#xA;" HorizontalAlignment="Left" Margin="265,70,0,0" VerticalAlignment="Top" Width="49"/>
-        <TextBox HorizontalAlignment="Left" Height="31" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="57" Margin="208,148,0,0"/>
-        <Label  Content="Horas" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="276,147,0,0"/>
-        <ScrollBar HorizontalAlignment="Right" VerticalAlignment="Top" RenderTransformOrigin="11.588,4.781" Margin="0,147,139,0"/>
-        <ScrollBar HorizontalAlignment="Left" VerticalAlignment="Top" Margin="186,205,0,0"/>
-        <TextBox HorizontalAlignment="Left" Height="30" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="57" Margin="208,206,0,0"/>
-        <Label Content="Horas" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="276,205,0,0"/>
+        <CheckBox Name="cbBuceo" Content="Cursos de buceo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,35,0,0" Checked="cbBuceo_Checked" Unchecked="cbBuceo_Unchecked"/>
+        <Label Name="cbBicicletas" Content="Alquiler de bicicletas" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,70,0,0"/>
+        <StackPanel Orientation="Horizontal" Margin="200,70,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <TextBox Margin="0,0,0,0" Height="24" Width="50" Text="0"/>
+            <StackPanel>
+                <Button Margin="0,0,0,0" Height="12" Width="12"/>
+                <Button Margin="0,0,0,0" Height="12" Width="12"/>
+            </StackPanel>
+        </StackPanel>
+        <Label Content="Alquiler pistas de tenis" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,105,0,0"/>
+        <StackPanel Orientation="Horizontal" Margin="200,105,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <TextBox Margin="0,0,0,0" Height="24" Width="50" Text="0"/>
+            <StackPanel>
+                <Button Margin="0,0,0,0" Height="12" Width="12"/>
+                <Button Margin="0,0,0,0" Height="12" Width="12"/>
+            </StackPanel>
+        </StackPanel>
+        <Label Content="Alquiler pistas de paddel" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,140,0,0"/>
+        <StackPanel Orientation="Horizontal" Margin="200,140,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <TextBox Margin="0,0,0,0" Height="24" Width="50" Text="0"/>
+            <StackPanel>
+                <Button Margin="0,0,0,0" Height="12" Width="12"/>
+                <Button Margin="0,0,0,0" Height="12" Width="12"/>
+            </StackPanel>
+        </StackPanel>
+        <Label Content="Alquiler de coche" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,175,0,0"/>
+        <StackPanel Orientation="Horizontal" Margin="200,175,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <TextBox Margin="0,0,0,0" Height="24" Width="50" Text="0"/>
+            <StackPanel>
+                <Button Margin="0,0,0,0" Height="12" Width="12"/>
+                <Button Margin="0,0,0,0" Height="12" Width="12"/>
+            </StackPanel>
+        </StackPanel>
+        <ComboBox Name="comboBuceo" HorizontalAlignment="Right" VerticalAlignment="Top" Width="164" Margin="0,35,20,0"/>
+        <Label Content="Horas" HorizontalAlignment="Right" Margin="0,70,20,0" VerticalAlignment="Top"/>
+        <Label  Content="Horas" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,105,20,0"/>
+        <Label Content="Horas" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,140,20,0"/>
+        <Label Content="Horas" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,175,20,0"/>
         <Button Content="Aceptar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="116,320,0,0"/>
-        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="80" Margin="203,279,0,0" RenderTransformOrigin="0.5,0.5">
-            <TextBox.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="0.018"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </TextBox.RenderTransform>
-        </TextBox>
+
 
     </Grid>
 </Window>

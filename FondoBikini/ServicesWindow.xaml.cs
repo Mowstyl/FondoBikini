@@ -27,11 +27,8 @@ namespace FondoBikini
 
         public void reset ()
         {
-            cbBicicletas.IsChecked = false;
             cbBuceo.IsChecked = false;
-            cbCoche.IsChecked = false;
-            cbPaddel.IsChecked = false;
-            cbTenis.IsChecked = false;
+            textBicicleta.Text = "0";
 
             foreach (string precio in buceo)
                 comboBuceo.Items.Add(precio);
