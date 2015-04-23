@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Tienda
+namespace FondoBikini
 {
     /// <summary>
     /// Lógica de interacción para ShopWindow.xaml
