@@ -9,7 +9,7 @@ Menu		->		Hernán
 Añadir todo lo que falta y agrupar botones por categorías.
 
 Reservas	->		Leo
-Preparar cancelación y modificación.
+Preparar cancelación y modificación. (Arreglar botones modificar y cancelar).
 
 Cliente		->		Gema
 Crear ventana y poner un link a la ventana de comidas.

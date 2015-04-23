@@ -68,7 +68,28 @@ namespace FondoBikini
 
         private void textAnular_Click(object sender, RoutedEventArgs e)
         {
+            using(StreamReader reader=new StreamReader("Información Reserva.txt"))
+            {
+                reader.ReadToEnd();
+            }
+
+            MessageBox.Show("Reserva anulada");
+
             this.Reset();
+        }
+
+        private void textModificar_Click(object sender, RoutedEventArgs e)
+        {
+            using(StreamWriter writer=new StreamWriter("Información Reserva.txt"))
+            {
+                writer.WriteLine("Cliente: {0} {1}", textNombre.Text, textApellidos.Text);
+                writer.WriteLine("DNI: {0}", textDni.Text);
+                writer.WriteLine("Procedencia: {0}, {1}", textPoblación.Text, textProvincia.Text);
+                writer.WriteLine("Tipo habitación: {0}", tipoHabitacion.Text);
+                writer.WriteLine("Estancia: {0}", textNochesEstancia.Text);
+                writer.WriteLine("Número tarjeta crédito: {0}", textNumeroTarjeta.Text);
+
+                MessageBox.Show("Reserva modificada");
         }
     }
 }
