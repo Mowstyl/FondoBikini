@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.IO;
 
 namespace FondoBikini
 {
@@ -44,13 +45,25 @@ namespace FondoBikini
 
         private void textGuardar_Click(object sender, RoutedEventArgs e)
         {
-            String datos = String.Format("Cliente {0} {1} con DNI {2} y procedencia {3}, {4}, solicita {5} durante {6}. Con numero tarjeta {7}",
+            /*String datos = String.Format("Cliente {0} {1} con DNI {2} y procedencia {3}, {4}, solicita {5} durante {6}. Con numero tarjeta {7}",
                 textNombre.Text, textApellidos.Text, textDni.Text, textPoblación.Text, textProvincia.Text, tipoHabitacion.Text, textNochesEstancia.Text, textNumeroTarjeta.Text);
 
             StringBuilder detalles = new StringBuilder();
             detalles.AppendLine(datos);
 
-            MessageBox.Show(detalles.ToString(), "Información reserva");
+            MessageBox.Show(detalles.ToString(), "Información reserva");*/
+
+            using(StreamWriter writer=new StreamWriter("Información Reserva.txt"))
+            {
+                writer.WriteLine("Cliente: {0} {1}", textNombre.Text, textApellidos.Text);
+                writer.WriteLine("DNI: {0}", textDni.Text);
+                writer.WriteLine("Procedencia: {0}, {1}", textPoblación.Text, textProvincia.Text);
+                writer.WriteLine("Tipo habitación: {0}", tipoHabitacion.Text);
+                writer.WriteLine("Estancia: {0}", textNochesEstancia.Text);
+                writer.WriteLine("Número tarjeta crédito: {0}", textNumeroTarjeta.Text);
+
+                MessageBox.Show("Información de la reserva guardada");
+            }
         }
 
         private void textAnular_Click(object sender, RoutedEventArgs e)
