@@ -1,0 +1,24 @@
+﻿<Window x:Class="FondoBikini.ShopWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ShopWindow" Height="600" Width="525">
+    <Grid>
+        <Button Name="Guardar" Content="Guardar" HorizontalAlignment="Left" Margin="89,482,0,0" Width="75" Height="20" VerticalAlignment="Top"/>
+        <Button Name="Cancelar" Content="Cancelar" HorizontalAlignment="Right" Margin="0,482,119,0" Width="75" Height="20" VerticalAlignment="Top"/>
+        <Label Name="Comprador" Content="Comprador:" HorizontalAlignment="Left" Margin="25,30,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.795,0.422"/>
+        <TextBox Name="TxBxComprador" HorizontalAlignment="Left" Height="23" Margin="115,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Name="Habitación" Content="Habitación:" HorizontalAlignment="Left" Margin="272,33,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.496,0.544"/>
+        <TextBox Name="TxBxHabitación" HorizontalAlignment="Left" Height="23" Margin="367,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <GroupBox Name="Productos" Header="Productos" HorizontalAlignment="Left" Margin="25,81,0,0" VerticalAlignment="Top">
+            <StackPanel>
+                <RadioButton Name="RBagua" Content="Agua" Margin="30,20,0,0"/>
+                <RadioButton Name="RBbañadores" Content="Bañadores" Margin="30,10,0,0"/>
+                <RadioButton Name="RBsombreros" Content="Sombreros" Margin="30,10,0,0"/>
+                <RadioButton Name="RBgafas" Content="Gafas" Margin="30,10,0,0"/>
+                <RadioButton Name="RBflotadores" Content="Flotadores" Margin="30,10,0,0"/>
+                <RadioButton Name="RBsombrillas" Content="Sombrillas" Margin="30,10,0,0"/>
+                <RadioButton Name="RBsouvenirs" Content="Souvenirs" Margin="30,10,0,0"/>
+            </StackPanel>
+        </GroupBox>
+    </Grid>
+</Window>
