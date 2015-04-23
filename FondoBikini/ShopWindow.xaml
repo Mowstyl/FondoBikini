@@ -1,10 +1,10 @@
 ﻿<Window x:Class="FondoBikini.ShopWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="ShopWindow" Height="600" Width="525">
+        Title="ShopWindow" Height="480" Width="525">
     <Grid>
-        <Button Name="Guardar" Content="Guardar" HorizontalAlignment="Left" Margin="130,416,0,0" Width="75" Height="20" VerticalAlignment="Top"/>
-        <Button Name="Cancelar" Content="Cancelar" HorizontalAlignment="Right" Margin="0,416,130,0" Width="75" Height="20" VerticalAlignment="Top"/>
+        <Button Name="Guardar" Content="Guardar" HorizontalAlignment="Left" Margin="130,383,0,0" Width="75" Height="20" VerticalAlignment="Top"/>
+        <Button Name="Cancelar" Content="Cancelar" HorizontalAlignment="Right" Margin="0,383,130,0" Width="75" Height="20" VerticalAlignment="Top"/>
         <Label Name="Comprador" Content="Comprador:" HorizontalAlignment="Left" Margin="25,33,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.795,0.422"/>
         <TextBox Name="TxBxComprador" HorizontalAlignment="Left" Height="23" Margin="115,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label Name="Habitación" Content="Habitación:" HorizontalAlignment="Left" Margin="272,33,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.496,0.544"/>
