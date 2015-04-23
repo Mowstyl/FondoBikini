@@ -53,5 +53,17 @@ namespace FondoBikini
             ServicesWindow servicesWindow = new ServicesWindow();
             servicesWindow.ShowDialog();
         }
+
+        private void bShop_Click(object sender, RoutedEventArgs e)
+        {
+            ShopWindow shopWindow = new ShopWindow();
+            shopWindow.ShowDialog();
+        }
+
+        private void bReservas_Click(object sender, RoutedEventArgs e)
+        {
+            BookWindow bookWindow = new BookWindow();
+            bookWindow.ShowDialog();
+        }
     }
 }
