@@ -28,7 +28,6 @@ namespace FondoBikini
         public void reset ()
         {
             cbBuceo.IsChecked = false;
-            textBicicleta.Text = "0";
 
             foreach (string precio in buceo)
                 comboBuceo.Items.Add(precio);
