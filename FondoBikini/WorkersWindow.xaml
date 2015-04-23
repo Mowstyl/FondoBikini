@@ -21,6 +21,8 @@
                     <MenuItem Header="_Iniciar Sesión" Name="logIn" />
                     <MenuItem Header="_Cerrar Sesión" Name="logOut" />
                     <Separator/>
+                    <MenuItem Header="Cargar empleado" Name="loadWorker" Click="loadWorker_Click"/>
+                    <Separator/>
                     <MenuItem Header="_Salir" Name="exit"/>
                 </MenuItem>
                 <MenuItem Header="_Ayuda" >
@@ -44,7 +46,7 @@
         <ComboBox Name="puesto" HorizontalAlignment="Left" Margin="439,189,0,0" VerticalAlignment="Top" Width="120" Style="{StaticResource bikiniFontStyle}"/>
         <Label Content="Salario" HorizontalAlignment="Left" Margin="349,229,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
         <TextBox Name="salario" HorizontalAlignment="Left" Height="23" Margin="439,233,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Style="{StaticResource bikiniFontStyle}"/>
-        <Button Name="nuevoEmpleado" Content="Nuevo empleado" HorizontalAlignment="Left" Margin="51,344,0,0" VerticalAlignment="Top" Width="99" Style="{StaticResource bikiniFontStyle}"/>
+        <Button Name="nuevoEmpleado" Content="Nuevo/Dar alta" HorizontalAlignment="Left" Margin="51,344,0,0" VerticalAlignment="Top" Width="99" Style="{StaticResource bikiniFontStyle}"/>
         <Button Name="modificar" Content="Modificar" HorizontalAlignment="Left" Margin="254,344,0,0" VerticalAlignment="Top" Width="75" Style="{StaticResource bikiniFontStyle}"/>
         <Button Name="baja" Content="Dar de baja" HorizontalAlignment="Left" Margin="439,344,0,0" VerticalAlignment="Top" Width="83" Style="{StaticResource bikiniFontStyle}"/>
         <Label Content="Telefono" HorizontalAlignment="Left" Margin="26,140,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>

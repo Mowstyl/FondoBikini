@@ -64,8 +64,8 @@
     <Compile Include="ClientWindow.xaml.cs">
       <DependentUpon>ClientWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="dataBase.xaml.cs">
-      <DependentUpon>dataBase.xaml</DependentUpon>
+    <Compile Include="DataBase.xaml.cs">
+      <DependentUpon>DataBase.xaml</DependentUpon>
     </Compile>
     <Compile Include="ServicesWindow.xaml.cs">
       <DependentUpon>ServicesWindow.xaml</DependentUpon>
@@ -121,7 +121,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="dataBase.xaml">
+    <Page Include="DataBase.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

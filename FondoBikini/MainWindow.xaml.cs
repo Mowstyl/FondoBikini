@@ -79,14 +79,10 @@ namespace FondoBikini
 
         }
 
-        private void newDataBase_Click(object sender, RoutedEventArgs e)
+        private void dataBase_Click(object sender, RoutedEventArgs e)
         {
-
-        }
-
-        private void changeDataBase_Click(object sender, RoutedEventArgs e)
-        {
-
+            DataBase db = new DataBase();
+            db.ShowDialog();
         }
     }
 }
