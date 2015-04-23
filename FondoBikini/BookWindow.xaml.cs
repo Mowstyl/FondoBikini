@@ -41,5 +41,21 @@ namespace FondoBikini
         }
 
         private string[] habitaciones = { "Normal", "Vistas al mar", "Superior vistas al mar", "Suite" };
+
+        private void textGuardar_Click(object sender, RoutedEventArgs e)
+        {
+            String datos = String.Format("Cliente {0} {1} con DNI {2} y procedencia {3}, {4}, solicita {5} durante {6}. Con numero tarjeta {7}",
+                textNombre.Text, textApellidos.Text, textDni.Text, textPoblación.Text, textProvincia.Text, tipoHabitacion.Text, textNochesEstancia.Text, textNumeroTarjeta.Text);
+
+            StringBuilder detalles = new StringBuilder();
+            detalles.AppendLine(datos);
+
+            MessageBox.Show(detalles.ToString(), "Información reserva");
+        }
+
+        private void textAnular_Click(object sender, RoutedEventArgs e)
+        {
+            this.Reset();
+        }
     }
 }
