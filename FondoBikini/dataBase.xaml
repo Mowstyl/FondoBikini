@@ -3,24 +3,24 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="DataBase" Height="300" Width="320">
     <Window.Resources>
-        <Style x:Key="bikiniTitleFontStyle" TargetType="Control">
+        <Style x:Key="bikiniFontStyle" TargetType="Control">
             <Setter Property="FontFamily" Value="MV Boli"/>
-            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontSize" Value="12"/>
         </Style>
     </Window.Resources>
     <Grid>
-        <Label Content="Tipo base de datos" HorizontalAlignment="Left" Margin="10,24,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniTitleFontStyle}"/>
+        <Label Content="Tipo base de datos" HorizontalAlignment="Left" Margin="10,24,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
         <ComboBox Name="dbTypes" HorizontalAlignment="Left" Margin="168,24,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="dbTypes_SelectionChanged"/>
-        <Label Content="Servidor" HorizontalAlignment="Left" Margin="10,55,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniTitleFontStyle}"/>
-        <Label Content="Usuario" HorizontalAlignment="Left" Margin="10,86,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniTitleFontStyle}"/>
-        <Label Content="Contraseña" HorizontalAlignment="Left" Margin="10,117,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniTitleFontStyle}"/>
-        <Label Content="Carpeta" HorizontalAlignment="Left" Margin="10,148,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniTitleFontStyle}"/>
+        <Label Content="Servidor" HorizontalAlignment="Left" Margin="10,55,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
+        <Label Content="Usuario" HorizontalAlignment="Left" Margin="10,86,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
+        <Label Content="Contraseña" HorizontalAlignment="Left" Margin="10,117,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
+        <Label Content="Carpeta" HorizontalAlignment="Left" Margin="10,148,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
         <TextBox Name="textServer" HorizontalAlignment="Left" Height="23" Margin="168,55,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
         <TextBox Name="textUser" HorizontalAlignment="Left" Height="23" Margin="168,86,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
         <TextBox Name="textPassword" HorizontalAlignment="Left" Height="23" Margin="168,117,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <Button Name="bSelect" Content="Examinar..." HorizontalAlignment="Left" Margin="213,151,0,0" VerticalAlignment="Top" Width="75" Click="bSelect_Click"/>
+        <Button Name="bSelect" Content="Examinar..." HorizontalAlignment="Left" Margin="213,151,0,0" VerticalAlignment="Top" Width="75" Click="bSelect_Click" Style="{StaticResource bikiniFontStyle}"/>
         <TextBox Name="textFolder" HorizontalAlignment="Left" Height="23" Margin="82,150,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <Button Name="bCancel" Content="Cancelar" HorizontalAlignment="Left" Margin="60,203,0,0" VerticalAlignment="Top" Width="75" Click="bCancel_Click"/>
-        <Button Name="bConnect" Content="Conectar" Margin="0,203,60,0" VerticalAlignment="Top" Click="bConnect_Click" HorizontalAlignment="Right" Width="65"/>
+        <Button Name="bCancel" Content="Cancelar" HorizontalAlignment="Left" Margin="60,203,0,0" VerticalAlignment="Top" Width="75" Click="bCancel_Click" Style="{StaticResource bikiniFontStyle}"/>
+        <Button Name="bConnect" Content="Conectar" Margin="0,203,60,0" VerticalAlignment="Top" Click="bConnect_Click" HorizontalAlignment="Right" Width="65" Style="{StaticResource bikiniFontStyle}"/>
     </Grid>
 </Window>
