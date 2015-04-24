@@ -7,23 +7,27 @@
             <Setter Property="FontFamily" Value="MV Boli"/>
             <Setter Property="FontSize" Value="16"/>
         </Style>
+        <Style x:Key="bikiniFontStyle" TargetType="Control">
+            <Setter Property="FontFamily" Value="MV Boli"/>
+            <Setter Property="FontSize" Value="12"/>
+        </Style>
     </Window.Resources>
     <Grid Margin="0,0,2,-3">
-        <Label Content="Nombre" HorizontalAlignment="Left" Margin="21,42,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniTitleFontStyle}"/>
+        <Label Content="Nombre" HorizontalAlignment="Left" Margin="21,42,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
         <TextBox Name="textNombre" HorizontalAlignment="Left" Height="23" Margin="100,42,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Apellidos" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="21,92,0,0" Style="{StaticResource bikiniTitleFontStyle}"/>
+        <Label Content="Apellidos" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="21,92,0,0" Style="{StaticResource bikiniFontStyle}"/>
         <TextBox Name="textApellidos" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="100,92,0,0"/>
-        <Label Content="DNI" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="21,142,0,0" Width="45" Style="{StaticResource bikiniTitleFontStyle}"/>
+        <Label Content="DNI" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="21,142,0,0" Width="45" Style="{StaticResource bikiniFontStyle}"/>
         <TextBox Name="textDni" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="100,142,0,0"/>
-        <Label Content="Población" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="250,60,0,0" Style="{StaticResource bikiniTitleFontStyle}"/>
+        <Label Content="Población" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="264,60,0,0" Style="{StaticResource bikiniFontStyle}"/>
         <TextBox Name="textPoblación"    HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="350,60,0,0"/>
-        <Label Content="Provincia" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="250,110,0,0" Style="{StaticResource bikiniTitleFontStyle}"/>
+        <Label Content="Provincia" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="264,110,0,0" Style="{StaticResource bikiniFontStyle}"/>
         <TextBox Name="textProvincia" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="350,110,0,0"/>
-        <Label Content="Tipo de habitación" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="111,204,0,0" Style="{StaticResource bikiniTitleFontStyle}"/>
+        <Label Content="Tipo de habitación" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="111,204,0,0" Style="{StaticResource bikiniFontStyle}"/>
         <ComboBox Name="tipoHabitacion" HorizontalAlignment="Left" Margin="264,205,0,0" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Noches de estancia" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="2.049,12.749" Margin="107,255,0,0" Style="{StaticResource bikiniTitleFontStyle}"/>
+        <Label Content="Noches de estancia" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="2.049,12.749" Margin="107,255,0,0" Style="{StaticResource bikiniFontStyle}"/>
         <TextBox Name="textNochesEstancia" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="264,255,0,0"/>
-        <Label Content="Número de tarjeta de crédito" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="24,305,0,0" Style="{StaticResource bikiniTitleFontStyle}"/>
+        <Label Content="Número de tarjeta de crédito" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="41,305,0,0" Style="{StaticResource bikiniFontStyle}"/>
         <TextBox Name="textNumeroTarjeta" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="264,305,0,0"/>
         <Button Name="textAnular" Content="Anular reserva" HorizontalAlignment="Right" VerticalAlignment="Top" Width="95" Margin="0,390,45,0" Height="33" Click="textAnular_Click"/>
         <Button Name="textCrear" Content="Crear reserva" HorizontalAlignment="Left" VerticalAlignment="Top" Width="101" Margin="45,390,0,0" Height="34" Click="textCrear_Click"/>

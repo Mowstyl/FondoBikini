@@ -43,12 +43,12 @@
         <Label Panel.ZIndex="1" Content="Fecha de contratación" HorizontalAlignment="Left" Margin="35,189,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
         <Label Panel.ZIndex="1" Content="Fecha de fin de contrato" HorizontalAlignment="Left" Margin="35,229,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
         <Label Panel.ZIndex="1" Content="Puesto de trabajo" HorizontalAlignment="Left" Margin="323,189,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
-        <ComboBox Panel.ZIndex="1" Name="puesto" HorizontalAlignment="Left" Margin="439,189,0,0" VerticalAlignment="Top" Width="120" Style="{StaticResource bikiniFontStyle}"/>
+        <ComboBox Panel.ZIndex="1" Name="puesto" HorizontalAlignment="Left" Margin="439,189,0,0" VerticalAlignment="Top" Width="120"/>
         <Label Panel.ZIndex="1" Content="Salario" HorizontalAlignment="Left" Margin="349,229,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
         <TextBox Panel.ZIndex="1" Name="salario" HorizontalAlignment="Left" Height="23" Margin="439,233,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Style="{StaticResource bikiniFontStyle}"/>
-        <Button Panel.ZIndex="1" Name="nuevoEmpleado" Content="Nuevo/Dar alta" HorizontalAlignment="Left" Margin="51,344,0,0" VerticalAlignment="Top" Width="99" Style="{StaticResource bikiniFontStyle}" Click="nuevoEmpleado_Click"/>
-        <Button Panel.ZIndex="1" Name="modificar" Content="Modificar" HorizontalAlignment="Left" Margin="254,344,0,0" VerticalAlignment="Top" Width="75" Style="{StaticResource bikiniFontStyle}" Click="modificar_Click"/>
-        <Button Panel.ZIndex="1" Name="baja" Content="Dar de baja" HorizontalAlignment="Left" Margin="439,344,0,0" VerticalAlignment="Top" Width="83" Style="{StaticResource bikiniFontStyle}" Click="baja_Click"/>
+        <Button Panel.ZIndex="1" Name="nuevoEmpleado" Content="Nuevo/Dar alta" HorizontalAlignment="Left" Margin="51,344,0,0" VerticalAlignment="Top" Width="99" Click="nuevoEmpleado_Click"/>
+        <Button Panel.ZIndex="1" Name="modificar" Content="Modificar" HorizontalAlignment="Left" Margin="254,344,0,0" VerticalAlignment="Top" Width="75" Click="modificar_Click"/>
+        <Button Panel.ZIndex="1" Name="baja" Content="Dar de baja" HorizontalAlignment="Left" Margin="439,344,0,0" VerticalAlignment="Top" Width="83" Click="baja_Click"/>
         <Label Panel.ZIndex="1" Content="Telefono" HorizontalAlignment="Left" Margin="26,140,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
         <TextBox Panel.ZIndex="1" Name="telefono" HorizontalAlignment="Left" Height="23" Margin="87,143,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="131" Style="{StaticResource bikiniFontStyle}"/>
         <Label Panel.ZIndex="1" Content="Notas" HorizontalAlignment="Left" Margin="51,273,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
