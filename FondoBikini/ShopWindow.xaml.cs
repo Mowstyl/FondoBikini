@@ -35,7 +35,7 @@ namespace FondoBikini
 
         private void Guardar_Click(object sender, RoutedEventArgs e)
         {
-            using(StreamWriter writer=new StreamWriter("Información compra.txt"))
+            /*using(StreamWriter writer=new StreamWriter("Información compra.txt"))
             {
                 writer.WriteLine("Comprador: {0}   Habitación: {1}", textComprador.Text, textHabitación.Text);
                 writer.WriteLine("Número de productos comprados:");
@@ -46,7 +46,7 @@ namespace FondoBikini
                 writer.WriteLine("Flotadores: {0}", textFlotadores.Text);
                 writer.WriteLine("Sombrillas: {0}", textSombrillas.Text);
                 writer.WriteLine("Souvenirs: {0}", textSouvenirs.Text);
-            }
+            }*/
 
             MessageBox.Show("Información guardada. Compra realizada");
         }
