@@ -29,7 +29,7 @@ StockSpa	->		Daniel
 La actualizacion del stock se vincula al proveedor para pedir
 		se relaciona con ventas en la tienda o gasto de material
 
-Tienda		
+Tienda		->		Leo
 OK. Falta fondo.
 
 Trabajadores->		Hernán
