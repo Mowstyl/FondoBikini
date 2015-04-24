@@ -194,8 +194,14 @@
     <Resource Include="islabikini editada.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="reservas editada.jpg" />
     <Resource Include="reservas spa editada.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="reservas editada.jpg" />
+    <Resource Include="servicios editada.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="stock spa editada.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

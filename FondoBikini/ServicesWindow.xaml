@@ -1,7 +1,7 @@
 ﻿<Window x:Class="FondoBikini.ServicesWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="ServicesWindow" Height="400" Width="500">
+        Title="ServicesWindow" Height="270" Width="500">
     <Window.Resources>
         <Style x:Key="bikiniTitleFontStyle" TargetType="Control">
             <Setter Property="FontFamily" Value="MV Boli"/>
@@ -17,10 +17,10 @@
             <ColumnDefinition/>
             <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
-        <CheckBox Name="cbBuceo" Content="Cursos de buceo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,70,0,0" Checked="cbBuceo_Checked" Unchecked="cbBuceo_Unchecked" Style="{StaticResource bikiniFontStyle}"/>
-        <ComboBox Name="comboBuceo" HorizontalAlignment="Right" VerticalAlignment="Top" Width="164" Margin="0,70,20,0"/>
-        <Label Content="Alquiler pistas de tenis" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,105,0,0" Style="{StaticResource bikiniFontStyle}"/>
-        <StackPanel Orientation="Horizontal" Margin="0,105,20,0" HorizontalAlignment="Right" VerticalAlignment="Top">
+        <CheckBox Panel.ZIndex="1" Name="cbBuceo" Content="Cursos de buceo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,20,0,0" Checked="cbBuceo_Checked" Unchecked="cbBuceo_Unchecked" Style="{StaticResource bikiniFontStyle}"/>
+        <ComboBox Panel.ZIndex="1" Name="comboBuceo" HorizontalAlignment="Right" VerticalAlignment="Top" Width="164" Margin="0,20,20,0"/>
+        <Label Panel.ZIndex="1" Content="Alquiler pistas de tenis" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,55,0,0" Style="{StaticResource bikiniFontStyle}"/>
+        <StackPanel Panel.ZIndex="1" Orientation="Horizontal" Margin="0,55,20,0" HorizontalAlignment="Right" VerticalAlignment="Top">
             <TextBox Margin="0,0,0,0" Height="24" Width="50" Text="0"/>
             <StackPanel>
                 <Button Margin="0,0,0,0" Height="12" Width="12"/>
@@ -28,8 +28,17 @@
             </StackPanel>
             <Label Content="Horas" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,0,0,0" Style="{StaticResource bikiniFontStyle}"/>
         </StackPanel>
-        <Label Content="Alquiler pistas de paddel" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,140,0,0" Style="{StaticResource bikiniFontStyle}"/>
-        <StackPanel Orientation="Horizontal" Margin="0,140,20,0" HorizontalAlignment="Right" VerticalAlignment="Top">
+        <Label Panel.ZIndex="1" Content="Alquiler pistas de paddel" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,90,0,0" Style="{StaticResource bikiniFontStyle}"/>
+        <StackPanel Panel.ZIndex="1" Orientation="Horizontal" Margin="0,90,20,0" HorizontalAlignment="Right" VerticalAlignment="Top">
+            <TextBox Panel.ZIndex="1" Margin="0,0,0,0" Height="24" Width="50" Text="0"/>
+            <StackPanel>
+                <Button Margin="0,0,0,0" Height="12" Width="12"/>
+                <Button Margin="0,0,0,0" Height="12" Width="12"/>
+            </StackPanel>
+            <Label Content="Horas" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,0,0,0" Style="{StaticResource bikiniFontStyle}"/>
+        </StackPanel>
+        <Label Panel.ZIndex="1" Content="Alquiler de coches" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,125,0,0" Style="{StaticResource bikiniFontStyle}"/>
+        <StackPanel Panel.ZIndex="1" Orientation="Horizontal" Margin="0,125,20,0" HorizontalAlignment="Right" VerticalAlignment="Top">
             <TextBox Margin="0,0,0,0" Height="24" Width="50" Text="0"/>
             <StackPanel>
                 <Button Margin="0,0,0,0" Height="12" Width="12"/>
@@ -37,28 +46,22 @@
             </StackPanel>
             <Label Content="Horas" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,0,0,0" Style="{StaticResource bikiniFontStyle}"/>
         </StackPanel>
-        <Label Content="Alquiler de coches" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,175,0,0" Style="{StaticResource bikiniFontStyle}"/>
-        <StackPanel Orientation="Horizontal" Margin="0,175,20,0" HorizontalAlignment="Right" VerticalAlignment="Top">
-            <TextBox Margin="0,0,0,0" Height="24" Width="50" Text="0"/>
+        <Label Panel.ZIndex="1" Content="Alquiler de bicicletas" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,160,0,0" Style="{StaticResource bikiniFontStyle}"/>
+        <StackPanel Panel.ZIndex="1" Orientation="Horizontal" Margin="0,160,20,0" HorizontalAlignment="Right" VerticalAlignment="Top">
+            <TextBox Panel.ZIndex="1" Margin="0,0,0,0" Height="24" Width="50" Text="0"/>
             <StackPanel>
-                <Button Margin="0,0,0,0" Height="12" Width="12"/>
-                <Button Margin="0,0,0,0" Height="12" Width="12"/>
+                <Button Panel.ZIndex="1" Margin="0,0,0,0" Height="12" Width="12"/>
+                <Button Panel.ZIndex="1" Margin="0,0,0,0" Height="12" Width="12"/>
             </StackPanel>
-            <Label Content="Horas" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,0,0,0" Style="{StaticResource bikiniFontStyle}"/>
+            <Label Panel.ZIndex="1" Content="Horas" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,0,0,0" Style="{StaticResource bikiniFontStyle}"/>
         </StackPanel>
-        <Label Content="Alquiler de bicicletas" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,210,0,0" Style="{StaticResource bikiniFontStyle}"/>
-        <StackPanel Orientation="Horizontal" Margin="0,210,20,0" HorizontalAlignment="Right" VerticalAlignment="Top">
-            <TextBox Margin="0,0,0,0" Height="24" Width="50" Text="0"/>
-            <StackPanel>
-                <Button Margin="0,0,0,0" Height="12" Width="12"/>
-                <Button Margin="0,0,0,0" Height="12" Width="12"/>
-            </StackPanel>
-            <Label Content="Horas" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,0,0,0" Style="{StaticResource bikiniFontStyle}"/>
-        </StackPanel>
-        <Button Name="cancelar" Content="Cancelar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="35,320,0,0" Click="cancelar_Click"/>
-        <Button Name="modificar" Content="Modificar" HorizontalAlignment="Center" VerticalAlignment="Top" Width="75" Margin="0,320,0,0" Click="modificar_Click"/>
-        <Button Name="aceptar" Content="Aceptar" HorizontalAlignment="Right" VerticalAlignment="Top" Width="75" Margin="0,320,35,0" Click="aceptar_Click"/>
-
-
+        <Button Panel.ZIndex="1" Name="cancelar" Content="Cancelar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="35,200,0,0" Click="cancelar_Click"/>
+        <Button Panel.ZIndex="1" Name="modificar" Content="Modificar" HorizontalAlignment="Center" VerticalAlignment="Top" Width="75" Margin="0,200,0,0" Click="modificar_Click"/>
+        <Button Panel.ZIndex="1" Name="aceptar" Content="Aceptar" HorizontalAlignment="Right" VerticalAlignment="Top" Width="75" Margin="0,200,35,0" Click="aceptar_Click"/>
+        <Image Panel.ZIndex="0" Name="fondoservicios" Margin="0,0,0,0">
+            <Image.Source>
+                <BitmapImage UriSource="servicios editada.jpg"/>
+            </Image.Source>
+        </Image>
     </Grid>
 </Window>

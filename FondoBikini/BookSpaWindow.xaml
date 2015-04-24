@@ -12,7 +12,6 @@
             <Setter Property="FontSize" Value="12"/>
         </Style>
     </Window.Resources>
-
     <Grid>
         <ComboBox Panel.ZIndex="1" Name="servicio" HorizontalAlignment="Left" Margin="81,21,0,0" VerticalAlignment="Top" Width="227"/>
         <Label Panel.ZIndex="1" Content="Servicio" HorizontalAlignment="Left" Margin="24,21,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
