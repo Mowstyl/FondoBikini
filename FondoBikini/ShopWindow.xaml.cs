@@ -48,12 +48,14 @@ namespace FondoBikini
                 writer.WriteLine("Souvenirs: {0}", textSouvenirs.Text);
             }*/
 
-            MessageBox.Show("Información guardada. Compra realizada");
+            MessageBox.Show("Información guardada. Compra realizada.");
         }
 
         private void Cancelar_Click(object sender, RoutedEventArgs e)
         {
             this.Reset();
+
+            MessageBox.Show("Compra cancelada.");
         }
     }
 }
