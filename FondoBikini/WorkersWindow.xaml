@@ -30,29 +30,34 @@
                 </MenuItem>
             </Menu>
         </DockPanel>
-        <Label Name="label1" Content="Nombre" HorizontalAlignment="Left" Margin="28,60,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
-        <TextBox Name="nombre" HorizontalAlignment="Left" Height="24" Margin="87,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="131" Style="{StaticResource bikiniFontStyle}"/>
-        <Label Name="label2" Content="Apellidos" Margin="246,60,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Style="{StaticResource bikiniFontStyle}"/>
-        <TextBox Name="apellidos" Height="24" Margin="310,60,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" HorizontalAlignment="Left" Width="234" Style="{StaticResource bikiniFontStyle}"/>
-        <Label Name="label3" Content="DNI" HorizontalAlignment="Left" Margin="51,101,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
-        <TextBox Name="dni" HorizontalAlignment="Left" Height="24" Margin="87,101,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="131" Style="{StaticResource bikiniFontStyle}"/>
-        <Label  Content="Dirección" HorizontalAlignment="Left" Margin="246,108,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
-        <TextBox Name="direccion" HorizontalAlignment="Left" Height="50" Margin="311,108,0,0" TextWrapping="Wrap"  AcceptsReturn="True" VerticalAlignment="Top" Width="233" Style="{StaticResource bikiniFontStyle}"/>
-        <DatePicker Name="fechaInicio" HorizontalAlignment="Left" Margin="186,189,0,0" VerticalAlignment="Top" Width="114" Style="{StaticResource bikiniFontStyle}"/>
-        <DatePicker Name="fechaFin" HorizontalAlignment="Left" Margin="186,229,0,0" VerticalAlignment="Top" Width="114" Style="{StaticResource bikiniFontStyle}"/>
-        <Label Content="Fecha de contratación" HorizontalAlignment="Left" Margin="35,189,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
-        <Label Content="Fecha de fin de contrato" HorizontalAlignment="Left" Margin="35,229,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
-        <Label Content="Puesto de trabajo" HorizontalAlignment="Left" Margin="323,189,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
-        <ComboBox Name="puesto" HorizontalAlignment="Left" Margin="439,189,0,0" VerticalAlignment="Top" Width="120" Style="{StaticResource bikiniFontStyle}"/>
-        <Label Content="Salario" HorizontalAlignment="Left" Margin="349,229,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
-        <TextBox Name="salario" HorizontalAlignment="Left" Height="23" Margin="439,233,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Style="{StaticResource bikiniFontStyle}"/>
-        <Button Name="nuevoEmpleado" Content="Nuevo/Dar alta" HorizontalAlignment="Left" Margin="51,344,0,0" VerticalAlignment="Top" Width="99" Style="{StaticResource bikiniFontStyle}"/>
-        <Button Name="modificar" Content="Modificar" HorizontalAlignment="Left" Margin="254,344,0,0" VerticalAlignment="Top" Width="75" Style="{StaticResource bikiniFontStyle}"/>
-        <Button Name="baja" Content="Dar de baja" HorizontalAlignment="Left" Margin="439,344,0,0" VerticalAlignment="Top" Width="83" Style="{StaticResource bikiniFontStyle}"/>
-        <Label Content="Telefono" HorizontalAlignment="Left" Margin="26,140,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
-        <TextBox Name="telefono" HorizontalAlignment="Left" Height="23" Margin="87,143,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="131" Style="{StaticResource bikiniFontStyle}"/>
-        <Label Content="Notas" HorizontalAlignment="Left" Margin="51,273,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
-        <TextBox Name="notas" HorizontalAlignment="Left" Height="56" Margin="103,273,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="456" Style="{StaticResource bikiniFontStyle}"/>
+        <Label Panel.ZIndex="1" Name="label1" Content="Nombre" HorizontalAlignment="Left" Margin="28,60,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
+        <TextBox Panel.ZIndex="1" Name="nombre" HorizontalAlignment="Left" Height="24" Margin="87,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="131" Style="{StaticResource bikiniFontStyle}"/>
+        <Label Panel.ZIndex="1" Name="label2" Content="Apellidos" Margin="246,60,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Style="{StaticResource bikiniFontStyle}"/>
+        <TextBox Panel.ZIndex="1" Name="apellidos" Height="24" Margin="310,60,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" HorizontalAlignment="Left" Width="234" Style="{StaticResource bikiniFontStyle}"/>
+        <Label Panel.ZIndex="1" Name="label3" Content="DNI" HorizontalAlignment="Left" Margin="51,101,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
+        <TextBox Panel.ZIndex="1" Name="dni" HorizontalAlignment="Left" Height="24" Margin="87,101,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="131" Style="{StaticResource bikiniFontStyle}"/>
+        <Label  Panel.ZIndex="1" Content="Dirección" HorizontalAlignment="Left" Margin="246,108,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
+        <TextBox Panel.ZIndex="1" Name="direccion" HorizontalAlignment="Left" Height="50" Margin="311,108,0,0" TextWrapping="Wrap"  AcceptsReturn="True" VerticalAlignment="Top" Width="233" Style="{StaticResource bikiniFontStyle}"/>
+        <DatePicker Panel.ZIndex="1" Name="fechaInicio" HorizontalAlignment="Left" Margin="186,189,0,0" VerticalAlignment="Top" Width="114" Style="{StaticResource bikiniFontStyle}"/>
+        <DatePicker Panel.ZIndex="1" Name="fechaFin" HorizontalAlignment="Left" Margin="186,229,0,0" VerticalAlignment="Top" Width="114" Style="{StaticResource bikiniFontStyle}"/>
+        <Label Panel.ZIndex="1" Content="Fecha de contratación" HorizontalAlignment="Left" Margin="35,189,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
+        <Label Panel.ZIndex="1" Content="Fecha de fin de contrato" HorizontalAlignment="Left" Margin="35,229,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
+        <Label Panel.ZIndex="1" Content="Puesto de trabajo" HorizontalAlignment="Left" Margin="323,189,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
+        <ComboBox Panel.ZIndex="1" Name="puesto" HorizontalAlignment="Left" Margin="439,189,0,0" VerticalAlignment="Top" Width="120" Style="{StaticResource bikiniFontStyle}"/>
+        <Label Panel.ZIndex="1" Content="Salario" HorizontalAlignment="Left" Margin="349,229,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
+        <TextBox Panel.ZIndex="1" Name="salario" HorizontalAlignment="Left" Height="23" Margin="439,233,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Style="{StaticResource bikiniFontStyle}"/>
+        <Button Panel.ZIndex="1" Name="nuevoEmpleado" Content="Nuevo/Dar alta" HorizontalAlignment="Left" Margin="51,344,0,0" VerticalAlignment="Top" Width="99" Style="{StaticResource bikiniFontStyle}"/>
+        <Button Panel.ZIndex="1" Name="modificar" Content="Modificar" HorizontalAlignment="Left" Margin="254,344,0,0" VerticalAlignment="Top" Width="75" Style="{StaticResource bikiniFontStyle}"/>
+        <Button Panel.ZIndex="1" Name="baja" Content="Dar de baja" HorizontalAlignment="Left" Margin="439,344,0,0" VerticalAlignment="Top" Width="83" Style="{StaticResource bikiniFontStyle}"/>
+        <Label Panel.ZIndex="1" Content="Telefono" HorizontalAlignment="Left" Margin="26,140,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
+        <TextBox Panel.ZIndex="1" Name="telefono" HorizontalAlignment="Left" Height="23" Margin="87,143,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="131" Style="{StaticResource bikiniFontStyle}"/>
+        <Label Panel.ZIndex="1" Content="Notas" HorizontalAlignment="Left" Margin="51,273,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
+        <TextBox Panel.ZIndex="1" Name="notas" HorizontalAlignment="Left" Height="56" Margin="103,273,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="456" Style="{StaticResource bikiniFontStyle}"/>
+        <Image Panel.ZIndex="0" Margin="0,0,0,0" Name="trabajadores">
+            <Image.Source>
+                <BitmapImage UriSource="trabajadores editada.jpg" />
+            </Image.Source>
+        </Image>
 
     </Grid>
 </Window>

@@ -14,7 +14,7 @@
         </Style>
     </Window.Resources>
     <Grid>
-        <DockPanel Height="100" LastChildFill="False" Margin="0" VerticalAlignment="Top">
+        <DockPanel Panel.ZIndex="1" Height="100" LastChildFill="False" Margin="0" VerticalAlignment="Top">
             <Menu Style="{StaticResource bikiniFontStyle}" Height="23" Name="menu1" VerticalAlignment="Top" Width="Auto" DockPanel.Dock="Top" HorizontalAlignment="Stretch">
                 <MenuItem Header="_Programa" >
                     <MenuItem Header="_Iniciar Sesión" Name="logIn" />
@@ -27,12 +27,17 @@
                 </MenuItem>
             </Menu>
         </DockPanel>
-        <Button Name="bTrabajadores" Content="Trabajadores" HorizontalAlignment="Left" Margin="109,218,0,0" VerticalAlignment="Top" Width="91" Click="bTrabajadores_Click"/>
-        <Button Name="bReservasSpa" Content="Reservas Spa" HorizontalAlignment="Left" Margin="242,218,0,0" VerticalAlignment="Top" Width="82" Click="bReservasSpa_Click"/>
-        <Button Name="bStockSpa" Content="Stock Spa" HorizontalAlignment="Left" Margin="373,218,0,0" VerticalAlignment="Top" Width="75" Click="bStockSpa_Click"/>
-        <Button Name="bClient" Content="Cliente" HorizontalAlignment="Left" Margin="373,167,0,0" VerticalAlignment="Top" Width="75" Click="bClient_Click"/>
-        <Button Name="bServices" Content="Servicios" HorizontalAlignment="Left" Margin="249,167,0,0" VerticalAlignment="Top" Width="75" Click="bServices_Click"/>
-        <Button Name="bShop" Content="Tienda" HorizontalAlignment="Left" Margin="109,167,0,0" VerticalAlignment="Top" Width="75" Click="bShop_Click"/>
-        <Button Name="bReservas" Content="Reservas" HorizontalAlignment="Left" Margin="109,105,0,0" VerticalAlignment="Top" Width="75" Click="bReservas_Click"/>
+        <Button Panel.ZIndex="1" Name="bTrabajadores" Content="Trabajadores" HorizontalAlignment="Left" Margin="109,218,0,0" VerticalAlignment="Top" Width="91" Click="bTrabajadores_Click"/>
+        <Button Panel.ZIndex="1" Name="bReservasSpa" Content="Reservas Spa" HorizontalAlignment="Left" Margin="242,218,0,0" VerticalAlignment="Top" Width="82" Click="bReservasSpa_Click"/>
+        <Button Panel.ZIndex="1" Name="bStockSpa" Content="Stock Spa" HorizontalAlignment="Left" Margin="373,218,0,0" VerticalAlignment="Top" Width="75" Click="bStockSpa_Click"/>
+        <Button Panel.ZIndex="1" Name="bClient" Content="Cliente" HorizontalAlignment="Left" Margin="373,167,0,0" VerticalAlignment="Top" Width="75" Click="bClient_Click"/>
+        <Button Panel.ZIndex="1" Name="bServices" Content="Servicios" HorizontalAlignment="Left" Margin="249,167,0,0" VerticalAlignment="Top" Width="75" Click="bServices_Click"/>
+        <Button Panel.ZIndex="1" Name="bShop" Content="Tienda" HorizontalAlignment="Left" Margin="109,167,0,0" VerticalAlignment="Top" Width="75" Click="bShop_Click"/>
+        <Button Panel.ZIndex="1" Name="bReservas" Content="Reservas" HorizontalAlignment="Left" Margin="109,105,0,0" VerticalAlignment="Top" Width="75" Click="bReservas_Click"/>
+        <Image Panel.ZIndex="0" Margin="0,0,0,0" Name="menu">
+            <Image.Source>
+                <BitmapImage UriSource="fondobikini editada.jpg"/>
+            </Image.Source>
+        </Image>
     </Grid>
 </Window>
