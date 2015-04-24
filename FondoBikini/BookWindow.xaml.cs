@@ -106,7 +106,7 @@ namespace FondoBikini
                 writerdatos.WriteLine("{0}", textNumeroTarjeta.Text);
             }*/
 
-            MessageBox.Show("Reserva anulada");
+            MessageBox.Show("Reserva anulada", "Anular reserva");
 
             
         }
@@ -135,7 +135,7 @@ namespace FondoBikini
                 writer.WriteLine("Número tarjeta crédito: {0}", textNumeroTarjeta.Text);
             }*/
 
-                MessageBox.Show("Reserva modificada");
+                MessageBox.Show("Reserva modificada", "Modificar reserva");
         }
     }
 }

@@ -25,8 +25,8 @@
         <TextBox Name="nombre" HorizontalAlignment="Left" Height="23" Margin="113,163,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" Style="{StaticResource bikiniFontStyle}"/>
         <TextBox Name="apellidos" HorizontalAlignment="Left" Height="23" Margin="113,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" Style="{StaticResource bikiniFontStyle}"/>
         <TextBox Name="dni" HorizontalAlignment="Left" Height="23" Margin="113,216,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" Style="{StaticResource bikiniFontStyle}"/>
-        <Button Name="nueva_Reserva" Content="Nueva Reserva" HorizontalAlignment="Left" Margin="45,259,0,0" VerticalAlignment="Top" Width="99" Style="{StaticResource bikiniFontStyle}"/>
-        <Button Name="anular_Reserva" Content="Anular Reserva" HorizontalAlignment="Left" Margin="160,259,0,0" VerticalAlignment="Top" Width="98" Style="{StaticResource bikiniFontStyle}"/>
+        <Button Name="nueva_Reserva" Content="Nueva Reserva" HorizontalAlignment="Left" Margin="45,259,0,0" VerticalAlignment="Top" Width="99" Style="{StaticResource bikiniFontStyle}" Click="nueva_Reserva_Click"/>
+        <Button Name="anular_Reserva" Content="Anular Reserva" HorizontalAlignment="Left" Margin="160,259,0,0" VerticalAlignment="Top" Width="98" Style="{StaticResource bikiniFontStyle}" Click="anular_Reserva_Click"/>
         <Label Content="Hora" HorizontalAlignment="Left" Margin="45,132,0,0" VerticalAlignment="Top"/>
         <ComboBox Name="hora" HorizontalAlignment="Left" Margin="113,134,0,0" VerticalAlignment="Top" Width="145"/>
 

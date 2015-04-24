@@ -51,5 +51,15 @@ namespace FondoBikini
         private string[] serviciosSpa ={ "Piscina de chorros de agua","Circuito de aguas","Masaje relajante",
             "Masaje Terapeutico", "Masaje Terapeutico (Masajista 2)"};
 
+        private void nueva_Reserva_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Reserva guardada.", "Nueva reserva");
+        }
+
+        private void anular_Reserva_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Reserva anulada.", "Anular reserva");
+        }
+
     }
 }

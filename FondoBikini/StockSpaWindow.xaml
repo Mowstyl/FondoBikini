@@ -17,7 +17,7 @@
         <Label Content="Reducir Stock" Style="{StaticResource bikiniFontStyle}" HorizontalAlignment="Left" Margin="24,144,0,0" VerticalAlignment="Top"/>
         <TextBox Name="incrementarStock" HorizontalAlignment="Left" Height="23" Margin="142,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97"/>
         <TextBox Name="reducirStock" HorizontalAlignment="Left" Height="23" Margin="142,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97"/>
-        <Button Name="actualizar" Style="{StaticResource bikiniFontStyle}" Content="Actualizar" HorizontalAlignment="Left" Margin="99,188,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Name="actualizar" Style="{StaticResource bikiniFontStyle}" Content="Actualizar" HorizontalAlignment="Left" Margin="99,188,0,0" VerticalAlignment="Top" Width="75" Click="actualizar_Click"/>
 
     </Grid>
 </Window>

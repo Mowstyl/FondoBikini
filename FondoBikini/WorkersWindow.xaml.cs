@@ -52,5 +52,20 @@ namespace FondoBikini
             OpenFileDialog load = new OpenFileDialog();
             load.ShowDialog();
         }
+
+        private void nuevoEmpleado_Click(object sender, RoutedEventArgs e)
+        {        
+            MessageBox.Show("Nuevo trabajador.", "Dar de alta");
+        }
+
+        private void modificar_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Datos modificados.", "Modificar información trabajador");
+        }
+
+        private void baja_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Trabajador dado de baja.", "Dar de baja");
+        }
     }
 }

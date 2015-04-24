@@ -45,9 +45,9 @@
             </StackPanel>
             <Label Content="Horas" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,0,0,0"/>
         </StackPanel>
-        <Button Content="Cancelar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="35,320,0,0"/>
-        <Button Content="Modificar" HorizontalAlignment="Center" VerticalAlignment="Top" Width="75" Margin="0,320,0,0"/>
-        <Button Content="Aceptar" HorizontalAlignment="Right" VerticalAlignment="Top" Width="75" Margin="0,320,35,0"/>
+        <Button Name="cancelar" Content="Cancelar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="35,320,0,0" Click="cancelar_Click"/>
+        <Button Name="modificar" Content="Modificar" HorizontalAlignment="Center" VerticalAlignment="Top" Width="75" Margin="0,320,0,0" Click="modificar_Click"/>
+        <Button Name="aceptar" Content="Aceptar" HorizontalAlignment="Right" VerticalAlignment="Top" Width="75" Margin="0,320,35,0" Click="aceptar_Click"/>
 
 
     </Grid>

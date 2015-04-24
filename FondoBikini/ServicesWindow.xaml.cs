@@ -30,9 +30,11 @@ namespace FondoBikini
             cbBuceo.IsChecked = false;
 
             foreach (string precio in buceo)
+            
                 comboBuceo.Items.Add(precio);
-            comboBuceo.Text = comboBuceo.Items[0] as string;
-            comboBuceo.IsEnabled = false;
+                comboBuceo.Text = comboBuceo.Items[0] as string;
+                comboBuceo.IsEnabled = false;
+            
         }
 
         public string[] buceo = { "120€ 3 días de iniciación", "250€ 3 días en alta mar" };
@@ -45,6 +47,21 @@ namespace FondoBikini
         private void cbBuceo_Unchecked(object sender, RoutedEventArgs e)
         {
             comboBuceo.IsEnabled = false;
+        }
+
+        private void cancelar_Click(object sender, RoutedEventArgs e)
+        {
+            this.reset();
+        }
+
+        private void modificar_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Información de servicios modificada.", "Modificar servicios");
+        }
+
+        private void aceptar_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Información de servicios guardada.", "Aceptar");
         }
     }
 }

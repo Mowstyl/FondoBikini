@@ -37,5 +37,10 @@ namespace FondoBikini
         }
         private string[] articulosSpa ={ "Aceite de masaje","Chanclas desechables","Gorro de piscina",
              "Toalla para Spa"};
+
+        private void actualizar_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Stock actualizado.", "Actualizar Stock");
+        }
     }
 }
