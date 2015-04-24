@@ -14,10 +14,10 @@
         </Style>
     </Window.Resources>
     <Grid>
-        <Label Name="label1" Style="{StaticResource bikiniTitleFontStyle}" Content="Bienvenido al sistema de gestión del hotel Fondo de Bikini" HorizontalAlignment="Center" Margin="0,75,0,0" VerticalAlignment="Top"/>
-        <Button Name="iniciarSesion" Content="Iniciar Sesión" HorizontalAlignment="Center" Margin="0,150,0,0" VerticalAlignment="Top" Width="75" Click="iniciarSesion_Click"/>
-        <Button Name="cerrar" Content="Cerrar" HorizontalAlignment="Center" Margin="0,190,0,0" VerticalAlignment="Top" Width="75" Click="cerrar_Click"/>
-        <DockPanel Height="100" LastChildFill="False" Margin="0" VerticalAlignment="Top">
+        <Label Panel.ZIndex="1" Name="label1" Style="{StaticResource bikiniTitleFontStyle}" Content="Bienvenido al sistema de gestión del hotel Fondo de Bikini" HorizontalAlignment="Center" Margin="0,75,0,0" VerticalAlignment="Top"/>
+        <Button Panel.ZIndex="1" Name="iniciarSesion" Content="Iniciar Sesión" HorizontalAlignment="Center" Margin="0,150,0,0" VerticalAlignment="Top" Width="75" Click="iniciarSesion_Click"/>
+        <Button Panel.ZIndex="1" Name="cerrar" Content="Cerrar" HorizontalAlignment="Center" Margin="0,190,0,0" VerticalAlignment="Top" Width="75" Click="cerrar_Click"/>
+        <DockPanel Panel.ZIndex="1" Height="100" LastChildFill="False" Margin="0" VerticalAlignment="Top">
             <Menu Style="{StaticResource bikiniFontStyle}" Height="23" Name="menu1" VerticalAlignment="Top" Width="Auto" DockPanel.Dock="Top" HorizontalAlignment="Stretch">
                 <MenuItem Header="_Programa" >
                     <MenuItem Header="_Iniciar Sesión" Name="logIn" Click="iniciarSesion_Click"/>
@@ -28,9 +28,24 @@
                     <MenuItem Header="_Salir" Name="exit"/>
                 </MenuItem>
                 <MenuItem Header="_Ayuda" >
-                    <MenuItem Header="_Sobre Hotel Fondo de Bikini" Name="about"/>
+                    <MenuItem Panel.ZIndex="1" Header="_Sobre Hotel Fondo de Bikini" Name="about"/>
                 </MenuItem>
             </Menu>
         </DockPanel>
+        <Image Panel.ZIndex="1" HorizontalAlignment="Left" Height="156" Margin="35,125,0,0" VerticalAlignment="Top" Width="148">
+            <Image.Source>
+                <BitmapImage UriSource="bob esponja saludando.gif"/>
+            </Image.Source>
+        </Image>
+        <Image Panel.ZIndex="1" HorizontalAlignment="Left" Height="156" Margin="363,125,0,0" VerticalAlignment="Top" Width="121">
+            <Image.Source>
+                <BitmapImage UriSource="patricio saludando_f.jpg"/>
+            </Image.Source>
+        </Image>
+        <Image Panel.ZIndex="0" Name="fondoinicio" Margin="0,0,0,0" >
+            <Image.Source>
+                <BitmapImage UriSource="fondo de bikini inicio editada.jpg"/>
+            </Image.Source>
+        </Image>
     </Grid>
 </Window>

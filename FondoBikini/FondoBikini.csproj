@@ -178,6 +178,13 @@
   <ItemGroup>
     <Resource Include="fondobikini editada.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bob esponja saludando.gif" />
+    <Resource Include="patricio saludando_f.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="fondo de bikini inicio editada.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
