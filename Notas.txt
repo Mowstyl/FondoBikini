@@ -9,7 +9,7 @@ Menu		->		Hernán
 Añadir todo lo que falta y agrupar botones por categorías.
 
 Reservas	->		Leo
-Preparar cancelación y modificación. (Arreglar botones modificar y cancelar).
+OK. Falta fondo.
 
 Cliente		->		Gema
 Crear ventana y poner un link a la ventana de comidas.
@@ -30,7 +30,7 @@ La actualizacion del stock se vincula al proveedor para pedir
 		se relaciona con ventas en la tienda o gasto de material
 
 Tienda		
-OK.
+OK. Falta fondo.
 
 Trabajadores->		Hernán
 Los trabajadores no se bottan, se dan de baja temporalmente (interesa guardar tambien una espacio para la valoracion)
