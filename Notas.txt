@@ -1,48 +1,45 @@
 Inicio		->		Hernán
-Añadir ventana para seleccionar donde guardar o cargar la base de datos.
 OK.
-Fondo listo.
 
-Login
+Login		->		Hernán
 OK.
-Fondo listo.
 
 Menu		->		Hernán
 Añadir todo lo que falta y agrupar botones por categorías.
-Fondo listo.
 
 Reservas	->		Leo
 OK.
-Fondo listo.
 
 Cliente		->		Gema
 Crear ventana y poner un link a la ventana de comidas.
 Conviene añadir boton para modificar cosas como los días de estancia.
 También se debe tener una ventana en la que aparezcan todos los cargos a la cuenta de ese cliente.
 Fondo preparado para terminar.
+Añadir boton para modificar régimen de comida de una habitación.
+Añadir pestañas para cuatro habitaciones con cuatro ocupantes cada una.
+El DNI del cliente que hizo la reserva debe estar fuera de cualquier pestaña y
+debe ser un combobox donde estén todos los DNI de los clientes que han reservado.
+Debe haber un boton para acceder a la reserva de ese cliente y consultar datos.
 
 Servicios	->		Gema
 Reorganizar y poner precio/hora.
 Se debe poder poner el nº de habitación al que se carga el precio.
 Se debe poder cancelar un servicio.
-Fondo listo.
+Se deben incluir cuadros de texto con la cantidad de objetos alquilados.
+Se debe incluir un cuadro con el precio total.
 
 BookSpa		->		Daniel
 Añadir Metodo de pago contado/Cargar a tarjeta
 Si el cliente es interino del hotel, mostrar numero de habitacion.
-Fondo listo.
 
 StockSpa	->		Daniel
 La actualizacion del stock se vincula al proveedor para pedir
 		se relaciona con ventas en la tienda o gasto de material
-	Fondo listo.
 
 Tienda		->		Leo
-OK.
-Fondo listo.
+Añadir precios y cuadro para mostrar precio total.
+Conviene utilizar los textbox con botones para subir o bajar cantidad de la ventana servicios.
+Poner fondo.
 
 Trabajadores->		Hernán
-Los trabajadores no se bottan, se dan de baja temporalmente (interesa guardar tambien una espacio para la valoracion)
-
-Añadir botón para dar de alta!!!
-Fondo listo.
+OK.
