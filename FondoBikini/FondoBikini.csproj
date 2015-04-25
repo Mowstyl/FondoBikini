@@ -187,10 +187,6 @@
     <Resource Include="Images\fondobikini editada.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\bob esponja saludando.gif" />
-    <Resource Include="Images\patricio saludando_f.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\fondo de bikini inicio editada.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -209,6 +205,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\stock spa editada.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\ClassicSpongeBob.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\patricio saludando_f.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -34,12 +34,12 @@
         </DockPanel>
         <Image Panel.ZIndex="1" HorizontalAlignment="Left" Height="156" Margin="35,125,0,0" VerticalAlignment="Top" Width="148">
             <Image.Source>
-                <BitmapImage UriSource="Images/bob esponja saludando.gif"/>
+                <BitmapImage UriSource="Images/ClassicSpongeBob.png"/>
             </Image.Source>
         </Image>
         <Image Panel.ZIndex="1" HorizontalAlignment="Left" Height="156" Margin="363,125,0,0" VerticalAlignment="Top" Width="121">
             <Image.Source>
-                <BitmapImage UriSource="Images/patricio saludando_f.jpg"/>
+                <BitmapImage UriSource="Images/patricio saludando_f.png"/>
             </Image.Source>
         </Image>
     </Grid>
