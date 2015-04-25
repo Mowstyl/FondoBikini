@@ -40,5 +40,10 @@ namespace FondoBikini
 
         public string[] horaComida = { "5:30 pm", "9:00 pm" };
 
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
     }
 }
