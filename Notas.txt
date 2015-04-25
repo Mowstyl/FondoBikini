@@ -1,3 +1,13 @@
+ATENCION!!!
+Ignorad el nombre que aparece como responsable de realizar una ventana.
+Todos debemos realizar todas las tareas que aquí aparezcan o todos suspendemos.
+Avisar por el grupo antes de hacer algo para que dos personas no trabajen en lo mismo.
+
+Tarea global:
+Se ha de cambiar el título de todas las ventanas a uno más descriptivo.
+Propiedad "Title"
+
+
 Inicio		->		Hernán
 OK.
 
