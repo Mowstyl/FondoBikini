@@ -1,0 +1,26 @@
+﻿<Window x:Class="FondoBikini.ClientWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ClientWindow" Height="400" Width="400">
+    <Grid>
+        <Label Content="DNI" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="233,30,0,0" Height="31" Width="30"/>
+        <TextBox HorizontalAlignment="Left" Height="27" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="85" Margin="268,29,0,0" RenderTransformOrigin="0.882,0.287"/>
+        <CheckBox Content="Toalla para la piscina" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="27,239,0,0"/>
+        <CheckBox Content="Albornoz SPA" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="27,265,0,0"/>
+        <GroupBox Header="Selección ocupante" HorizontalAlignment="Left" VerticalAlignment="Top" Height="157" Width="170" Margin="10,77,0,0">
+            <StackPanel Name="stackPanel1" Margin="0,0,0,0">
+                <RadioButton Name="Rb" Content="Cliente" HorizontalAlignment="Left" Margin="38,16,0,0" VerticalAlignment="Top"/>
+                <RadioButton Name="Rb1" Content="Acompañante 1" HorizontalAlignment="Left" Margin="38,16,0,0" VerticalAlignment="Top"/>
+                <RadioButton Name="Rb2" Content="Acompañante 2" HorizontalAlignment="Left" Margin="38,16,0,0" VerticalAlignment="Top"/>
+                <RadioButton Name="Rb3" Content="Acompañante 3" HorizontalAlignment="Left" Margin="38,16,0,0" VerticalAlignment="Top"/>
+            </StackPanel>
+        </GroupBox>
+        <TextBox HorizontalAlignment="Left" Height="26" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="101" Margin="263,254,0,0"/>
+        <Label Content="Depósito" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="205,254,0,0"/>
+        <Label Content="Nº habitación" HorizontalAlignment="Left" Margin="10,29,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="27" Margin="98,30,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="82"/>
+        <Image HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Margin="263,122,0,0"/>
+        <Label Content="Fotocopia del DNI" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="180,91,0,0"/>
+
+    </Grid>
+</Window>

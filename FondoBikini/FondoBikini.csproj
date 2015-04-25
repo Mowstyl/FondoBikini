@@ -62,6 +62,9 @@
     <Compile Include="BookWindow.xaml.cs">
       <DependentUpon>BookWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ClientWindow.xaml.cs">
+      <DependentUpon>ClientWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="FoodClientWindow.xaml.cs">
       <DependentUpon>FoodClientWindow.xaml</DependentUpon>
     </Compile>
@@ -91,6 +94,10 @@
     <Page Include="BookWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ClientWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="FoodClientWindow.xaml">
       <SubType>Designer</SubType>
