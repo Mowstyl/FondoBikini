@@ -174,34 +174,34 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="trabajadores editada.jpg" />
+    <Resource Include="Images\trabajadores editada.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="fondobikini editada.jpg" />
+    <Resource Include="Images\fondobikini editada.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="bob esponja saludando.gif" />
-    <Resource Include="patricio saludando_f.jpg" />
+    <Resource Include="Images\bob esponja saludando.gif" />
+    <Resource Include="Images\patricio saludando_f.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="fondo de bikini inicio editada.jpg" />
+    <Resource Include="Images\fondo de bikini inicio editada.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="calamardo atendiendo.jpg" />
-    <Resource Include="calamardo clientes editada.jpg" />
+    <Resource Include="Images\calamardo atendiendo.jpg" />
+    <Resource Include="Images\calamardo clientes editada.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="islabikini editada.jpg" />
+    <Resource Include="Images\islabikini editada.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="reservas spa editada.jpg" />
+    <Resource Include="Images\reservas spa editada.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="reservas editada.jpg" />
-    <Resource Include="servicios editada.jpg" />
+    <Resource Include="Images\reservas editada.jpg" />
+    <Resource Include="Images\servicios editada.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="stock spa editada.jpg" />
+    <Resource Include="Images\stock spa editada.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
