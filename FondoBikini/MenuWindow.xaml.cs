@@ -22,6 +22,7 @@ namespace FondoBikini
         public MenuWindow()
         {
             InitializeComponent();
+            logIn.IsEnabled = false;
             ImageBrush ib = new ImageBrush();
             ib.ImageSource = new BitmapImage(new Uri("pack://application:,,,/Images/fondobikini editada.jpg", UriKind.Absolute));
             Background = ib;
@@ -67,6 +68,13 @@ namespace FondoBikini
         {
             BookWindow bookWindow = new BookWindow();
             bookWindow.ShowDialog();
+        }
+
+        private void logOut_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainWindow = new MainWindow();
+            mainWindow.Show();
+            this.Close();
         }
     }
 }
