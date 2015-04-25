@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace FondoBikini
 {
     /// <summary>
-    /// Interaction logic for ClientWindow.xaml
+    /// Interaction logic for FoodClientWindow.xaml
     /// </summary>
-    public partial class ClientWindow : Window
+    public partial class FoodClientWindow : Window
     {
-        public ClientWindow()
+        public FoodClientWindow()
         {
             InitializeComponent();
             this.reset();
