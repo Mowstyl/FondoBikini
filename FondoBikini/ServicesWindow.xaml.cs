@@ -27,6 +27,10 @@ namespace FondoBikini
 
         public void reset ()
         {
+            ImageBrush ib = new ImageBrush();
+            ib.ImageSource = new BitmapImage(new Uri("pack://application:,,,/Images/servicios editada.jpg", UriKind.Absolute));
+            Background = ib;
+
             cbBuceo.IsChecked = false;
 
             foreach (string precio in buceo)

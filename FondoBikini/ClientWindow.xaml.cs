@@ -27,6 +27,9 @@ namespace FondoBikini
 
         public void reset()
         {
+            ImageBrush ib = new ImageBrush();
+            ib.ImageSource = new BitmapImage(new Uri("pack://application:,,,/Images/calamardo clientes editada.jpg", UriKind.Absolute));
+            Background = ib;
             radioDesayuno.IsChecked = true;
             cbIncluido.IsChecked = false;
 

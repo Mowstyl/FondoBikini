@@ -34,10 +34,5 @@
         <Button Panel.ZIndex="1" Name="bServices" Content="Servicios" HorizontalAlignment="Left" Margin="249,167,0,0" VerticalAlignment="Top" Width="75" Click="bServices_Click"/>
         <Button Panel.ZIndex="1" Name="bShop" Content="Tienda" HorizontalAlignment="Left" Margin="109,167,0,0" VerticalAlignment="Top" Width="75" Click="bShop_Click"/>
         <Button Panel.ZIndex="1" Name="bReservas" Content="Reservas" HorizontalAlignment="Left" Margin="109,105,0,0" VerticalAlignment="Top" Width="75" Click="bReservas_Click"/>
-        <Image Panel.ZIndex="0" Margin="0,0,0,0" Name="menu">
-            <Image.Source>
-                <BitmapImage UriSource="fondobikini editada.jpg"/>
-            </Image.Source>
-        </Image>
     </Grid>
 </Window>

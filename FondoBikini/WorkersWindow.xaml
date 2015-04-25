@@ -53,11 +53,6 @@
         <TextBox Panel.ZIndex="1" Name="telefono" HorizontalAlignment="Left" Height="23" Margin="87,143,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="131" Style="{StaticResource bikiniFontStyle}"/>
         <Label Panel.ZIndex="1" Content="Notas" HorizontalAlignment="Left" Margin="51,273,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
         <TextBox Panel.ZIndex="1" Name="notas" HorizontalAlignment="Left" Height="56" Margin="103,273,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="456" Style="{StaticResource bikiniFontStyle}"/>
-        <Image Panel.ZIndex="0" Margin="0,0,0,0" Name="trabajadores">
-            <Image.Source>
-                <BitmapImage UriSource="trabajadores editada.jpg" />
-            </Image.Source>
-        </Image>
 
     </Grid>
 </Window>

@@ -22,6 +22,9 @@ namespace FondoBikini
         public MenuWindow()
         {
             InitializeComponent();
+            ImageBrush ib = new ImageBrush();
+            ib.ImageSource = new BitmapImage(new Uri("pack://application:,,,/Images/fondobikini editada.jpg", UriKind.Absolute));
+            Background = ib;
         }
 
         private void bTrabajadores_Click(object sender, RoutedEventArgs e)

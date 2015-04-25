@@ -26,6 +26,10 @@ namespace FondoBikini
         }
         private void Reset()
         {
+            ImageBrush ib = new ImageBrush();
+            ib.ImageSource = new BitmapImage(new Uri("pack://application:,,,/Images/stock spa editada.jpg", UriKind.Absolute));
+            Background = ib;
+
             incrementarStock.Text = String.Empty;
             reducirStock.Text = String.Empty;
             stock.Text = String.Empty;

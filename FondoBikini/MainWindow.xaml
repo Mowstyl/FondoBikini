@@ -34,17 +34,12 @@
         </DockPanel>
         <Image Panel.ZIndex="1" HorizontalAlignment="Left" Height="156" Margin="35,125,0,0" VerticalAlignment="Top" Width="148">
             <Image.Source>
-                <BitmapImage UriSource="bob esponja saludando.gif"/>
+                <BitmapImage UriSource="Images/bob esponja saludando.gif"/>
             </Image.Source>
         </Image>
         <Image Panel.ZIndex="1" HorizontalAlignment="Left" Height="156" Margin="363,125,0,0" VerticalAlignment="Top" Width="121">
             <Image.Source>
-                <BitmapImage UriSource="patricio saludando_f.jpg"/>
-            </Image.Source>
-        </Image>
-        <Image Panel.ZIndex="0" Name="fondoinicio" Margin="0,0,0,0" >
-            <Image.Source>
-                <BitmapImage UriSource="fondo de bikini inicio editada.jpg"/>
+                <BitmapImage UriSource="Images/patricio saludando_f.jpg"/>
             </Image.Source>
         </Image>
     </Grid>

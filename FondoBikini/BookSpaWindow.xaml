@@ -28,12 +28,5 @@
         <Button Panel.ZIndex="1" Name="anular_Reserva" Content="Anular Reserva" HorizontalAlignment="Right" Margin="0,259,45,0" VerticalAlignment="Top" Width="98" Click="anular_Reserva_Click"/>
         <Label Panel.ZIndex="1" Content="Hora" HorizontalAlignment="Left" Margin="45,134,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
         <ComboBox Panel.ZIndex="1" Name="hora" HorizontalAlignment="Left" Margin="113,134,0,0" VerticalAlignment="Top" Width="145"/>
-        <Image Panel.ZIndex="0" Name="fondoReservasSpa" Margin="0,0,0,0">
-            <Image.Source>
-                <BitmapImage UriSource="reservas spa editada.jpg"/>
-            </Image.Source>
-        </Image>
-
-
     </Grid>
 </Window>

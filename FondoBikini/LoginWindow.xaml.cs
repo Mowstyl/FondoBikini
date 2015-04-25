@@ -22,6 +22,16 @@ namespace FondoBikini
         public LoginWindow()
         {
             InitializeComponent();
+            this.reset();
+        }
+
+        private void reset()
+        {
+            ImageBrush ib = new ImageBrush();
+            ib.ImageSource = new BitmapImage(new Uri("pack://application:,,,/Images/islabikini editada.jpg", UriKind.Absolute));
+            Background = ib;
+            user.Text = String.Empty;
+            password.Password = String.Empty;
         }
 
         private void cancelar_Click(object sender, RoutedEventArgs e)

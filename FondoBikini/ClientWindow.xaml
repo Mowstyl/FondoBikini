@@ -20,10 +20,5 @@
         <CheckBox Panel.ZIndex="1" Name="cbIncluido" Content="Todo Incluído" Margin="90,173,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
         <Label Panel.ZIndex="1" Content="Régimen de comidas:" HorizontalAlignment="Left" VerticalAlignment="Top" Width="165" Margin="10,38,0,0" Style="{StaticResource bikiniFontStyle}"/>
         <ComboBox Panel.ZIndex="1" Name="comboHoraCena" HorizontalAlignment="Left" Margin="296,38,0,0" VerticalAlignment="Top" Width="120"/>
-        <Image Panel.ZIndex="0" Name="fondoclientes" Margin="0,0,0,0">
-        <Image.Source>
-            <BitmapImage UriSource="calamardo clientes editada.jpg"/>
-        </Image.Source>
-        </Image>
     </Grid>
 </Window>

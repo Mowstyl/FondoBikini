@@ -58,10 +58,5 @@
         <Button Panel.ZIndex="1" Name="cancelar" Content="Cancelar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="35,200,0,0" Click="cancelar_Click"/>
         <Button Panel.ZIndex="1" Name="modificar" Content="Modificar" HorizontalAlignment="Center" VerticalAlignment="Top" Width="75" Margin="0,200,0,0" Click="modificar_Click"/>
         <Button Panel.ZIndex="1" Name="aceptar" Content="Aceptar" HorizontalAlignment="Right" VerticalAlignment="Top" Width="75" Margin="0,200,35,0" Click="aceptar_Click"/>
-        <Image Panel.ZIndex="0" Name="fondoservicios" Margin="0,0,0,0">
-            <Image.Source>
-                <BitmapImage UriSource="servicios editada.jpg"/>
-            </Image.Source>
-        </Image>
     </Grid>
 </Window>

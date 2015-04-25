@@ -28,6 +28,9 @@ namespace FondoBikini
 
         public void Reset()
         {
+            ImageBrush ib = new ImageBrush();
+            ib.ImageSource = new BitmapImage(new Uri("pack://application:,,,/Images/reservas editada.jpg", UriKind.Absolute));
+            Background = ib;
             textNombre.Text = String.Empty;
             textApellidos.Text = String.Empty;
             textDni.Text = String.Empty;

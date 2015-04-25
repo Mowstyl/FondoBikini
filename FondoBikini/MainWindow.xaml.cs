@@ -24,6 +24,9 @@ namespace FondoBikini
         {
             InitializeComponent();
             logOut.IsEnabled = false;
+            ImageBrush ib = new ImageBrush();
+            ib.ImageSource = new BitmapImage(new Uri("pack://application:,,,/Images/fondo de bikini inicio editada.jpg", UriKind.Absolute));
+            Background = ib;
         }
 
         private void iniciarSesion_Click(object sender, RoutedEventArgs e)

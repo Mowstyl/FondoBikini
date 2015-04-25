@@ -32,11 +32,6 @@
         <Button Panel.ZIndex="1" Name="textAnular" Content="Anular reserva" HorizontalAlignment="Right" VerticalAlignment="Top" Width="95" Margin="0,240,45,0" Height="33" Click="textAnular_Click"/>
         <Button Panel.ZIndex="1" Name="textCrear" Content="Crear reserva" HorizontalAlignment="Left" VerticalAlignment="Top" Width="101" Margin="45,240,0,0" Height="34" Click="textCrear_Click"/>
         <Button Panel.ZIndex="1" Name="textModificar" Content="Modificar reserva" HorizontalAlignment="Center" Margin="0,240,0,0" VerticalAlignment="Top" Width="108" Height="34" Click="textModificar_Click"/>
-        <Image Panel.ZIndex="0" Name="fondoreservas" Margin="0,0,0,0">
-            <Image.Source>
-                <BitmapImage UriSource="reservas editada.jpg"/>
-            </Image.Source>
-        </Image>
     </Grid>
 </Window>
 
