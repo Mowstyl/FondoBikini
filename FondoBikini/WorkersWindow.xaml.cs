@@ -59,7 +59,7 @@ namespace FondoBikini
 
         private void nuevoEmpleado_Click(object sender, RoutedEventArgs e)
         {        
-            MessageBox.Show("Nuevo trabajador.", "Dar de alta");
+            MessageBox.Show("Nuevo empleado añadido.", "Nuevo empleado");
         }
 
         private void modificar_Click(object sender, RoutedEventArgs e)
@@ -67,9 +67,18 @@ namespace FondoBikini
             MessageBox.Show("Datos modificados.", "Modificar información trabajador");
         }
 
-        private void baja_Click(object sender, RoutedEventArgs e)
+        private void altaBaja_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Trabajador dado de baja.", "Dar de baja");
+            if (altaBaja.Content == "Dar de baja")
+            {
+                MessageBox.Show("Trabajador dado de baja.", "Dar de baja");
+                altaBaja.Content = "Dar de alta";
+            }
+            else
+            {
+                MessageBox.Show("Trabajador dado de alta.", "Dar de alta");
+                altaBaja.Content = "Dar de baja";
+            }
         }
 
         private void exit_Click(object sender, RoutedEventArgs e)
@@ -82,5 +91,7 @@ namespace FondoBikini
             About about = new About();
             about.ShowDialog();
         }
+
+        
     }
 }
