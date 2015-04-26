@@ -25,7 +25,7 @@
                     <Separator/>
                     <MenuItem Header="Seleccionar base de datos" Name="dataBase" Click="dataBase_Click"/>
                     <Separator/>
-                    <MenuItem Header="_Salir" Name="exit"/>
+                    <MenuItem Header="_Salir" Name="exit" Click="cerrar_Click"/>
                 </MenuItem>
                 <MenuItem Header="_Ayuda" >
                     <MenuItem Panel.ZIndex="1" Header="_Sobre Hotel Fondo de Bikini" Name="about" Click="about_Click"/>
