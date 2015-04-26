@@ -22,6 +22,9 @@ namespace FondoBikini
         public ServicesWindow()
         {
             InitializeComponent();
+            foreach (string precio in buceo)
+                comboBuceo.Items.Add(precio);
+            comboBuceo.Text = comboBuceo.Items[0] as string;
             this.reset();
         }
 
@@ -33,10 +36,7 @@ namespace FondoBikini
             total.Text = "0 €";
             cbBuceo.IsChecked = false;
 
-            foreach (string precio in buceo)
-            
-                comboBuceo.Items.Add(precio);
-                comboBuceo.Text = comboBuceo.Items[0] as string;
+
                 comboBuceo.IsEnabled = false;
             
         }
@@ -66,21 +66,21 @@ namespace FondoBikini
         private void aceptar_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Información de servicios guardada.", "Aceptar");
-            int precioTotal=0;
-            precioTotal = Convert.ToInt32(tenis.Text) * 10 + Convert.ToInt32(paddel.Text) * 10 + Convert.ToInt32(coche.Text) * 25 + Convert.ToInt32(bici.Text) * 2;
-            if (cbBuceo.IsChecked == true)
-            {
-                switch ((int)comboBuceo.SelectedIndex)
-                {
-                    case 0:
-                        precioTotal+=120;
-                        break;
-                    case 1:
-                        precioTotal+=250;
-                        break;
-                }           
-            }
-            total.Text = precioTotal.ToString() + " €";
+            //int precioTotal=0;
+            //precioTotal = Convert.ToInt32(tenis.Text) * 10 + Convert.ToInt32(paddel.Text) * 10 + Convert.ToInt32(coche.Text) * 25 + Convert.ToInt32(bici.Text) * 2;
+            //if (cbBuceo.IsChecked == true)
+            //{
+            //    switch ((int)comboBuceo.SelectedIndex)
+            //    {
+            //        case 0:
+            //            precioTotal+=120;
+            //            break;
+            //        case 1:
+            //            precioTotal+=250;
+            //            break;
+            //    }           
+            //}
+            //total.Text = precioTotal.ToString() + " €";
         }
 
         private void cambiaHab_Click(object sender, RoutedEventArgs e)
