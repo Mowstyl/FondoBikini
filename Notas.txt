@@ -32,8 +32,7 @@ debe ser un combobox donde estén todos los DNI de los clientes que han reservado
 Debe haber un boton para acceder a la reserva de ese cliente y consultar datos.
 
 Servicios	->		Gema
-Reorganizar??
-Se deben incluir cuadros de texto con la cantidad de objetos alquilados.
+OK.
 
 BookSpa		->		Daniel
 OK.

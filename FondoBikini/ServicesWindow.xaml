@@ -18,9 +18,9 @@
             <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
         <CheckBox Panel.ZIndex="1" Name="cbBuceo" Content="Cursos de buceo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="22,45,0,0" Checked="cbBuceo_Checked" Unchecked="cbBuceo_Unchecked" Style="{StaticResource bikiniFontStyle}"/>
-        <ComboBox Panel.ZIndex="1" Name="comboBuceo" HorizontalAlignment="Right" VerticalAlignment="Top" Width="164" Margin="0,45,18,0"/>
+        <ComboBox Panel.ZIndex="1" Name="comboBuceo" HorizontalAlignment="Right" VerticalAlignment="Top" Width="164" Margin="0,45,137,0"/>
         <Label Panel.ZIndex="1" Content="Alquiler pistas de tenis" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="22,80,0,0" Style="{StaticResource bikiniFontStyle}"/>
-        <StackPanel Panel.ZIndex="1" Orientation="Horizontal" Margin="302,80,21,0" VerticalAlignment="Top">
+        <StackPanel Panel.ZIndex="1" Orientation="Horizontal" Margin="183,80,140,0" VerticalAlignment="Top">
             <TextBox Name="tenis" Margin="0,0,0,0" Height="24" Width="50" Text="0"/>
             <StackPanel>
                 <Button Margin="0,0,0,0" Height="12" Width="12"/>
@@ -29,7 +29,7 @@
             <Label Content=" Horas (10€/h)" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,0,0,0" Style="{StaticResource bikiniFontStyle}"/>
         </StackPanel>
         <Label Panel.ZIndex="1" Content="Alquiler pistas de paddel" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="22,115,0,0" Style="{StaticResource bikiniFontStyle}"/>
-        <StackPanel Panel.ZIndex="1" Orientation="Horizontal" Margin="302,115,21,0" VerticalAlignment="Top">
+        <StackPanel Panel.ZIndex="1" Orientation="Horizontal" Margin="183,115,140,0" VerticalAlignment="Top">
             <TextBox Name="paddel" Panel.ZIndex="1" Margin="0,0,0,0" Height="24" Width="50" Text="0"/>
             <StackPanel>
                 <Button Margin="0,0,0,0" Height="12" Width="12"/>
@@ -38,22 +38,27 @@
             <Label Content=" Horas (10€/h)" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,0,0,0" Style="{StaticResource bikiniFontStyle}"/>
         </StackPanel>
         <Label Panel.ZIndex="1" Content="Alquiler de coches" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="22,150,0,0" Style="{StaticResource bikiniFontStyle}"/>
-        <StackPanel Panel.ZIndex="1" Orientation="Horizontal" Margin="302,150,21,0" VerticalAlignment="Top">
+        <StackPanel Panel.ZIndex="1" Orientation="Horizontal" Margin="183,150,40,0" VerticalAlignment="Top">
             <TextBox Name="coche" Margin="0,0,0,0" Height="24" Width="50" Text="0"/>
             <StackPanel>
                 <Button Margin="0,0,0,0" Height="12" Width="12"/>
                 <Button Margin="0,0,0,0" Height="12" Width="12"/>
             </StackPanel>
             <Label Content="Dias (25€/dia)" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,0,0,0" Style="{StaticResource bikiniFontStyle}"/>
+            <Label Panel.ZIndex="1" Content="Cantidad " HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,0,0,0" Style="{StaticResource bikiniFontStyle}"/>
+            <TextBox Name="cocheCantidad" Panel.ZIndex="1" Margin="0,0,0,0" Height="24" Width="34" Text="0"/>
         </StackPanel>
         <Label Panel.ZIndex="1" Content="Alquiler de bicicletas" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="22,185,0,0" Style="{StaticResource bikiniFontStyle}"/>
-        <StackPanel Panel.ZIndex="1" Orientation="Horizontal" Margin="302,185,21,0" VerticalAlignment="Top">
+        <StackPanel Panel.ZIndex="1" Orientation="Horizontal" Margin="183,185,40,0" VerticalAlignment="Top">
             <TextBox Name="bici" Panel.ZIndex="1" Margin="0,0,0,0" Height="24" Width="50" Text="0"/>
             <StackPanel>
                 <Button Panel.ZIndex="1" Margin="0,0,0,0" Height="12" Width="12"/>
                 <Button Panel.ZIndex="1" Margin="0,0,0,0" Height="12" Width="12"/>
             </StackPanel>
             <Label Panel.ZIndex="1" Content=" Horas (2€/h)" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,0,0,0" Style="{StaticResource bikiniFontStyle}"/>
+            <Label Panel.ZIndex="1" Content="Cantidad " HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,0,0,0" Style="{StaticResource bikiniFontStyle}"/>
+            <TextBox Name="biciCantidad" Panel.ZIndex="1" Margin="0,0,0,0" Height="24" Width="34" Text="0"/>
+            
         </StackPanel>
         <Button Panel.ZIndex="1" Name="cancelar" Content="Cancelar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="35,249,0,0" Click="cancelar_Click" Style="{StaticResource bikiniFontStyle}"/>
         <Button Panel.ZIndex="1" Name="modificar" Content="Modificar" HorizontalAlignment="Center" VerticalAlignment="Top" Width="76" Margin="204,249,204,0" Click="modificar_Click" Style="{StaticResource bikiniFontStyle}"/>
