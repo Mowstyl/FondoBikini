@@ -34,5 +34,35 @@
         <TextBox Name="textFlotadores" HorizontalAlignment="Left" Height="23" Margin="156,247,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="49"/>
         <TextBox Name="textSombrillas" HorizontalAlignment="Left" Height="23" Margin="156,277,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="49"/>
         <TextBox Name="textSouvenirs" HorizontalAlignment="Left" Height="23" Margin="156,307,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="49"/>
+        <StackPanel HorizontalAlignment="Left" Height="32" Margin="205,127,0,0" VerticalAlignment="Top" Width="14">
+            <Button Margin="0,0,0,0" Height="12" Width="12"/>
+            <Button Margin="0,0,0,0" Height="12" Width="12"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="32" Margin="205,157,0,0" VerticalAlignment="Top" Width="14">
+            <Button Margin="0,0,0,0" Height="12" Width="12"/>
+            <Button Margin="0,0,0,0" Height="12" Width="12"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="32" Margin="205,189,0,0" VerticalAlignment="Top" Width="14">
+            <Button Margin="0,0,0,0" Height="12" Width="12"/>
+            <Button Margin="0,0,0,0" Height="12" Width="12"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="32" Margin="205,217,0,0" VerticalAlignment="Top" Width="14">
+            <Button Margin="0,0,0,0" Height="12" Width="12"/>
+            <Button Margin="0,0,0,0" Height="12" Width="12"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="32" Margin="205,249,0,0" VerticalAlignment="Top" Width="14">
+            <Button Margin="0,0,0,0" Height="12" Width="12"/>
+            <Button Margin="0,0,0,0" Height="12" Width="12"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="32" Margin="205,277,0,0" VerticalAlignment="Top" Width="14">
+            <Button Margin="0,0,0,0" Height="12" Width="12"/>
+            <Button Margin="0,0,0,0" Height="12" Width="12"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="32" Margin="205,307,0,0" VerticalAlignment="Top" Width="14">
+            <Button Margin="0,0,0,0" Height="12" Width="12"/>
+            <Button Margin="0,0,0,0" Height="12" Width="12"/>
+        </StackPanel>
+        <TextBox Name="textotal" HorizontalAlignment="Left" Height="23" Margin="364,213,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120"/>
+        <Label Name="total" Content="Total" HorizontalAlignment="Left" Margin="306,211,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
     </Grid>
 </Window>
