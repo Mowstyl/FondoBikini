@@ -1,10 +1,4 @@
-Trabajadores
-Los trabajadores no se bottan, se dan de baja temporalmente (interesa guardar tambien una espacio para la valoracion)
 
 StockSpa
 La actualizacion del stock se vincula al proveedor para pedir
 		se relaciona con ventas en la tienda o gasto de material
-
-BookSpa
-Añadir Metodo de pago contado/Cargar a tarjeta
-Si el cliente es interino del hotel, mostrar numero de habitacion.
