@@ -82,5 +82,10 @@ namespace FondoBikini
             }
             total.Text = precioTotal.ToString() + " €";
         }
+
+        private void cambiaHab_Click(object sender, RoutedEventArgs e)
+        {
+            this.reset();
+        }
     }
 }
