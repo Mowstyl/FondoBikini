@@ -5,7 +5,7 @@ Avisar por el grupo antes de hacer algo para que dos personas no trabajen en lo 
 
 Tarea global:
 Se ha de cambiar el título de todas las ventanas a uno más descriptivo.
-Propiedad "Title"
+Propiedad "Title" .OK.
 
 
 Inicio		->		Hernán
@@ -39,12 +39,12 @@ Se deben incluir cuadros de texto con la cantidad de objetos alquilados.
 Se debe incluir un cuadro con el precio total.
 
 BookSpa		->		Daniel
-Añadir Metodo de pago contado/Cargar a tarjeta
-Si el cliente es interino del hotel, mostrar numero de habitacion.
+OK.
 
 StockSpa	->		Daniel
 La actualizacion del stock se vincula al proveedor para pedir
 		se relaciona con ventas en la tienda o gasto de material
+
 
 Tienda		->		Leo
 Añadir precios y cuadro para mostrar precio total.

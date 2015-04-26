@@ -30,7 +30,7 @@ namespace FondoBikini
             ImageBrush ib = new ImageBrush();
             ib.ImageSource = new BitmapImage(new Uri("pack://application:,,,/Images/servicios editada.jpg", UriKind.Absolute));
             Background = ib;
-
+            total.Text = "0 €";
             cbBuceo.IsChecked = false;
 
             foreach (string precio in buceo)
@@ -66,6 +66,21 @@ namespace FondoBikini
         private void aceptar_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Información de servicios guardada.", "Aceptar");
+            int precioTotal=0;
+            precioTotal = Convert.ToInt32(tenis.Text) * 10 + Convert.ToInt32(paddel.Text) * 10 + Convert.ToInt32(coche.Text) * 25 + Convert.ToInt32(bici.Text) * 2;
+            if (cbBuceo.IsChecked == true)
+            {
+                switch ((int)comboBuceo.SelectedIndex)
+                {
+                    case 0:
+                        precioTotal+=120;
+                        break;
+                    case 1:
+                        precioTotal+=250;
+                        break;
+                }           
+            }
+            total.Text = precioTotal.ToString() + " €";
         }
     }
 }

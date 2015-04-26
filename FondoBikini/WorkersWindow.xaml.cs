@@ -69,7 +69,7 @@ namespace FondoBikini
 
         private void altaBaja_Click(object sender, RoutedEventArgs e)
         {
-            if (altaBaja.Content == "Dar de baja")
+            if (string.Compare(altaBaja.Content.ToString(),"Dar de baja")==0)
             {
                 MessageBox.Show("Trabajador dado de baja.", "Dar de baja");
                 altaBaja.Content = "Dar de alta";
