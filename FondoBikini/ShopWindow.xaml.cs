@@ -57,5 +57,10 @@ namespace FondoBikini
 
             MessageBox.Show("Compra cancelada.");
         }
+
+        private void textotal_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
