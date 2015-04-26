@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,62 @@ namespace FondoBikini
         public ClientWindow()
         {
             InitializeComponent();
+            this.Reset();
+        }
+
+        private void Reset()
+        {
+            cbDniRes.Items.Add("DNI Reserva");
+            cbDniRes.Text = cbDniRes.Items[0] as string;
+        }
+
+        private void Comidas_Click(object sender, RoutedEventArgs e)
+        {
+            FoodClientWindow food = new FoodClientWindow();
+            food.ShowDialog();
+        }
+
+        private void bReserva_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Datos reserva asociados al DNI seleccionado");
+        }
+
+        private void Image_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog open = new OpenFileDialog();
+            open.ShowDialog();
+        }
+
+        private void bBorrar_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Datos borrados.");
+        }
+
+        private void bModificar_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Datos modificados.");
+        }
+
+        private void bGuardar_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Datos guardados.");
+        }
+
+        private void openBook_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog load = new OpenFileDialog();
+            load.ShowDialog();
+        }
+
+        private void exit_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void about_Click(object sender, RoutedEventArgs e)
+        {
+            About about = new About();
+            about.ShowDialog();
         }
     }
 }
