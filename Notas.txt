@@ -15,7 +15,7 @@ Login		->		Hernán
 OK.
 
 Menu		->		Hernán
-Añadir todo lo que falta y agrupar botones por categorías.
+OK.
 
 Reservas	->		Leo
 OK.
