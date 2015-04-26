@@ -32,18 +32,14 @@ debe ser un combobox donde estén todos los DNI de los clientes que han reservado
 Debe haber un boton para acceder a la reserva de ese cliente y consultar datos.
 
 Servicios	->		Gema
-Reorganizar y poner precio/hora.
-Se debe poder poner el nº de habitación al que se carga el precio.
-Se debe poder cancelar un servicio.
+Reorganizar??
 Se deben incluir cuadros de texto con la cantidad de objetos alquilados.
-Se debe incluir un cuadro con el precio total.
 
 BookSpa		->		Daniel
 OK.
 
 StockSpa	->		Daniel
-La actualizacion del stock se vincula al proveedor para pedir
-		se relaciona con ventas en la tienda o gasto de material
+OK.
 
 
 Tienda		->		Leo

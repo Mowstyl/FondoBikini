@@ -46,5 +46,10 @@ namespace FondoBikini
         {
             MessageBox.Show("Stock actualizado.", "Actualizar Stock");
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Pedido realizado al proveedor.", "Pedido al proveedor");
+        }
     }
 }
