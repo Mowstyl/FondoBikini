@@ -1,7 +1,7 @@
 ﻿<Window x:Class="FondoBikini.StockSpaWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Hotel Fondo de Bikini" Height="220" Width="285">
+        Title="Almacen Spa - Fondo de Bikini" Height="220" Width="285">
     <Window.Resources>
         <Style x:Key="bikiniFontStyle" TargetType="Control">
             <Setter Property="FontFamily" Value="MV Boli"/>
