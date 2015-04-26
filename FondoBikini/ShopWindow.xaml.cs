@@ -24,13 +24,16 @@ namespace FondoBikini
         public ShopWindow()
         {
             InitializeComponent();
+            this.Reset();
         }
 
         public void Reset()
         {
             textComprador.Text = String.Empty;
             textHabitación.Text = String.Empty;
-      
+            ImageBrush ib = new ImageBrush();
+            ib.ImageSource = new BitmapImage(new Uri("pack://application:,,,/Images/calamardo clientes editada.jpg", UriKind.Absolute));
+            Background = ib;
         }
 
         private void Guardar_Click(object sender, RoutedEventArgs e)

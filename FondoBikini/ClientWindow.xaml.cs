@@ -31,6 +31,9 @@ namespace FondoBikini
         {
             cbDniRes.Items.Add("DNI Reserva");
             cbDniRes.Text = cbDniRes.Items[0] as string;
+            ImageBrush ib = new ImageBrush();
+            ib.ImageSource = new BitmapImage(new Uri("pack://application:,,,/Images/calamardo clientes editada.jpg", UriKind.Absolute));
+            Background = ib;
         }
 
         private void Comidas_Click(object sender, RoutedEventArgs e)
@@ -44,7 +47,7 @@ namespace FondoBikini
             MessageBox.Show("Datos reserva asociados al DNI seleccionado");
         }
 
-        private void Image_Click(object sender, RoutedEventArgs e)
+        private void image_Click(object sender, RoutedEventArgs e)
         {
             OpenFileDialog open = new OpenFileDialog();
             open.ShowDialog();
