@@ -87,5 +87,11 @@ namespace FondoBikini
             DataBase db = new DataBase();
             db.ShowDialog();
         }
+
+        private void about_Click(object sender, RoutedEventArgs e)
+        {
+            About about = new About();
+            about.ShowDialog();
+        }
     }
 }
