@@ -43,8 +43,7 @@ OK.
 
 
 Tienda		->		Leo
-Añadir precios y cuadro para mostrar precio total.
-Conviene utilizar los textbox con botones para subir o bajar cantidad de la ventana servicios.
+Añadir precios.
 Poner fondo.
 
 Trabajadores->		Hernán
