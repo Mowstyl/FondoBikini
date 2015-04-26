@@ -71,5 +71,16 @@ namespace FondoBikini
         {
             MessageBox.Show("Trabajador dado de baja.", "Dar de baja");
         }
+
+        private void exit_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void about_Click(object sender, RoutedEventArgs e)
+        {
+            About about = new About();
+            about.ShowDialog();
+        }
     }
 }

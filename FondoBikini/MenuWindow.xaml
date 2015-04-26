@@ -23,16 +23,32 @@
                     <MenuItem Header="_Salir" Name="exit"/>
                 </MenuItem>
                 <MenuItem Header="_Ayuda" >
-                    <MenuItem Header="_Sobre Hotel Fondo de Bikini" Name="about"/>
+                    <MenuItem Header="_Sobre Hotel Fondo de Bikini" Name="about" Click="about_Click"/>
                 </MenuItem>
             </Menu>
         </DockPanel>
-        <Button Panel.ZIndex="1" Name="bTrabajadores" Content="Trabajadores" HorizontalAlignment="Left" Margin="109,218,0,0" VerticalAlignment="Top" Width="91" Click="bTrabajadores_Click"/>
-        <Button Panel.ZIndex="1" Name="bReservasSpa" Content="Reservas Spa" HorizontalAlignment="Left" Margin="242,218,0,0" VerticalAlignment="Top" Width="82" Click="bReservasSpa_Click"/>
-        <Button Panel.ZIndex="1" Name="bStockSpa" Content="Stock Spa" HorizontalAlignment="Left" Margin="373,218,0,0" VerticalAlignment="Top" Width="75" Click="bStockSpa_Click"/>
-        <Button Panel.ZIndex="1" Name="bClient" Content="Cliente" HorizontalAlignment="Left" Margin="373,167,0,0" VerticalAlignment="Top" Width="75" Click="bClient_Click"/>
-        <Button Panel.ZIndex="1" Name="bServices" Content="Servicios" HorizontalAlignment="Left" Margin="249,167,0,0" VerticalAlignment="Top" Width="75" Click="bServices_Click"/>
-        <Button Panel.ZIndex="1" Name="bShop" Content="Tienda" HorizontalAlignment="Left" Margin="109,167,0,0" VerticalAlignment="Top" Width="75" Click="bShop_Click"/>
-        <Button Panel.ZIndex="1" Name="bReservas" Content="Reservas" HorizontalAlignment="Left" Margin="109,105,0,0" VerticalAlignment="Top" Width="75" Click="bReservas_Click"/>
+        <GroupBox Header="Zona Administración" HorizontalAlignment="Right" Margin="0,100,25,0" VerticalAlignment="Top">
+            <StackPanel Margin="0,0,0,0" >
+                <Button Panel.ZIndex="1" Name="bTrabajadores" Content="Trabajadores" HorizontalAlignment="Left" Margin="20,20,0,0" VerticalAlignment="Top" Width="91" Click="bTrabajadores_Click"/>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Header="Zona SPA" HorizontalAlignment="Right" Margin="0,100,155,0" VerticalAlignment="Top">
+            <StackPanel Margin="0,0,0,0" >
+                <Button Panel.ZIndex="1" Name="bReservasSpa" Content="Reservas Spa" HorizontalAlignment="Left" Margin="20,20,0,0" VerticalAlignment="Top" Width="82" Click="bReservasSpa_Click"/>
+                <Button Panel.ZIndex="1" Name="bStockSpa" Content="Stock Spa" HorizontalAlignment="Left" Margin="20,20,0,0" VerticalAlignment="Top" Width="75" Click="bStockSpa_Click"/>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Header="Zona Ventas" HorizontalAlignment="Left" Margin="130,100,0,0" VerticalAlignment="Top">
+            <StackPanel Margin="0,0,0,0" >
+                <Button Panel.ZIndex="1" Name="bServices" Content="Servicios" HorizontalAlignment="Left" Margin="20,20,0,0" VerticalAlignment="Top" Width="75" Click="bServices_Click"/>
+                <Button Panel.ZIndex="1" Name="bShop" Content="Tienda" HorizontalAlignment="Left" Margin="20,20,0,0" VerticalAlignment="Top" Width="75" Click="bShop_Click"/>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Header="Zona Clientes" HorizontalAlignment="Left" Margin="20,100,0,0" VerticalAlignment="Top">
+            <StackPanel Margin="0,0,0,0" >
+                <Button Panel.ZIndex="1" Name="bReservas" Content="Reservas" HorizontalAlignment="Left" Margin="20,20,0,0" VerticalAlignment="Top" Width="75" Click="bReservas_Click"/>
+                <Button Panel.ZIndex="1" Name="bClient" Content="Cliente" HorizontalAlignment="Left" Margin="20,20,0,0" VerticalAlignment="Top" Width="75" Click="bClient_Click"/>
+            </StackPanel>
+        </GroupBox>
     </Grid>
 </Window>

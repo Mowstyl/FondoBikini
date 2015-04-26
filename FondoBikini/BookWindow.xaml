@@ -13,6 +13,18 @@
         </Style>
     </Window.Resources>
     <Grid Margin="0,0,2,-3">
+        <DockPanel Height="23" LastChildFill="False" Margin="0" VerticalAlignment="Top">
+            <Menu Style="{StaticResource bikiniFontStyle}" Height="23" Name="menu1" VerticalAlignment="Top" Width="Auto" DockPanel.Dock="Top" HorizontalAlignment="Stretch">
+                <MenuItem Header="_Programa" >
+                    <MenuItem Header="Abrir reserva" Name="openBook" Click="openBook_Click"/>
+                    <Separator/>
+                    <MenuItem Header="_Salir" Name="exit" Click="exit_Click"/>
+                </MenuItem>
+                <MenuItem Header="_Ayuda" >
+                    <MenuItem Header="_Sobre Hotel Fondo de Bikini" Name="about" Click="about_Click"/>
+                </MenuItem>
+            </Menu>
+        </DockPanel>
         <Label Panel.ZIndex="1" Content="Nombre" HorizontalAlignment="Left" Margin="21,20,0,0" VerticalAlignment="Top" Style="{StaticResource bikiniFontStyle}"/>
         <TextBox Panel.ZIndex="1" Name="textNombre" HorizontalAlignment="Left" Height="23" Margin="100,20,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <Label Panel.ZIndex="1" Content="Apellidos" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="21,50,0,0" Style="{StaticResource bikiniFontStyle}"/>

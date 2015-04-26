@@ -76,5 +76,11 @@ namespace FondoBikini
             mainWindow.Show();
             this.Close();
         }
+
+        private void about_Click(object sender, RoutedEventArgs e)
+        {
+            About about = new About();
+            about.ShowDialog();
+        }
     }
 }

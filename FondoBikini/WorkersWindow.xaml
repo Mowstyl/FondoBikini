@@ -18,15 +18,12 @@
         <DockPanel Height="23" LastChildFill="False" Margin="0" VerticalAlignment="Top">
             <Menu Style="{StaticResource bikiniFontStyle}" Height="23" Name="menu1" VerticalAlignment="Top" Width="Auto" DockPanel.Dock="Top" HorizontalAlignment="Stretch">
                 <MenuItem Header="_Programa" >
-                    <MenuItem Header="_Iniciar Sesión" Name="logIn" />
-                    <MenuItem Header="_Cerrar Sesión" Name="logOut" />
-                    <Separator/>
                     <MenuItem Header="Cargar empleado" Name="loadWorker" Click="loadWorker_Click"/>
                     <Separator/>
-                    <MenuItem Header="_Salir" Name="exit"/>
+                    <MenuItem Header="_Salir" Name="exit" Click="exit_Click"/>
                 </MenuItem>
                 <MenuItem Header="_Ayuda" >
-                    <MenuItem Header="_Sobre Hotel Fondo de Bikini" Name="about"/>
+                    <MenuItem Header="_Sobre Hotel Fondo de Bikini" Name="about" Click="about_Click"/>
                 </MenuItem>
             </Menu>
         </DockPanel>

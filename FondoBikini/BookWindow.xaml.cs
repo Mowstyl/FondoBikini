@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.IO;
+using Microsoft.Win32;
 
 namespace FondoBikini
 {
@@ -139,6 +140,23 @@ namespace FondoBikini
             }*/
 
                 MessageBox.Show("Reserva modificada", "Modificar reserva");
+        }
+
+        private void openBook_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog load = new OpenFileDialog();
+            load.ShowDialog();
+        }
+
+        private void exit_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void about_Click(object sender, RoutedEventArgs e)
+        {
+            About about = new About();
+            about.ShowDialog();
         }
     }
 }
